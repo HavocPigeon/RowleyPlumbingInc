@@ -1,0 +1,19 @@
+.navbarmain {
+    background-color: rgb(104, 102, 102);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+.logo {
+    padding-top: 13px;
+}
+.rowleylogo {
+    height: 75px;
+    width: auto;
+}

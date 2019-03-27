@@ -1,0 +1,16 @@
+.landingmain {
+    color: rgb(233, 229, 31);
+}
+.rpititle {
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+span {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 10px;
+}
