@@ -1,16 +1,40 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../css/navbar.css';
-import Homelogo from '../Images/FInal Logo.png';
+import Homelogo from '../Images/Final Logo.jpg';
 
-const Navbar = () => {
-    return (
-        <div className="navbarmain">
-            <div className="logo"><img className='rowleylogo' src={Homelogo} alt="home-logo"/></div>
-            <div className="about">About</div>
-            <div className="projects">Projects</div>
-            <div className="contact">Contact</div>
-        </div>
-    );
-};
 
-export default Navbar;
+export default class Navbar extends Component {
+    constructor(){
+        super();
+        this.state = {
+            scroll: 0,
+        }
+    }
+
+    componentDidMount(){
+        window.addEventListener('scroll', this.handleScroll)
+    }
+
+    //scroll y position
+    componentWillUnmount(){
+        window.removeEventListener('scroll', this.handleScroll)
+    }
+    
+    handleScroll = () => {
+        this.setState({
+            scroll: window.scrollY
+        })
+    }
+
+    render() {
+        console.log(this.state.scroll);
+        return (
+            <div className="navbarmainh">
+                <div className="contacth">Contact</div>
+                <div className="projectsh">Projects</div>
+                <div className="abouth">About</div>
+                <div className="logo"><img className='rowleylogo' src={Homelogo} alt="home-logo"/></div>
+            </div>
+        );
+    }
+}
