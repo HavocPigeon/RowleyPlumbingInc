@@ -2,31 +2,74 @@
     background-color: rgb(0, 0, 0);
     width: 100%;
     height: 75px;
+    padding: 25px 0px;
+    transition: padding 1.9s ease-in-out;
     display: flex;
-    color: white;
+    color: transparent;
     text-align: center;
-    flex-direction: row-reverse;
-    position: relative;
+    position: sticky;
     top: 0;
     left: 0;
-    /* max-width: 100px; */
+    width: 100%;
+    overflow: hidden;
     justify-content: space-around;
     align-items: center;
     font-size: 30px;
     font-family: 'Permanent Marker';
-    border-bottom-right-radius: 10px;
 }
-.logo {
+.navbarmainsh {
+    background-color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    transition: padding 2.7s ease-in-out;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Permanent Marker';
+}
+.logoh, .logosh {
     padding-top: 13px;
+    flex: 1;
+    transition-delay: 1.5s;
 }
 .rowleylogo {
+    max-height: 100px;
+    width: auto;
+    padding-bottom: 10px;
+    transition: 2s ease-in-out;
+}
+.rowleylogosmall {
     max-height: 65px;
     width: auto;
     padding-bottom: 10px;
+    transition: 2s ease-in-out;
 }
-.rowleylogo, .abouth, .contacth, .projectsh {
+.abouth, .contacth, .projectsh {
     cursor: pointer;
 }
 .abouth, .contacth, .projectsh {
-    /* display: none; */
+    transition: 1.8s ease-in-out;
+    color: transparent;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0;
+}
+.aboutsh, .contactsh, .projectssh {
+    transition: 2.7s ease-in-out .3s;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex: 1;
 }

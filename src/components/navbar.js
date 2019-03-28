@@ -29,11 +29,35 @@ export default class Navbar extends Component {
     render() {
         console.log(this.state.scroll);
         return (
-            <div className="navbarmainh">
-                <div className="contacth">Contact</div>
-                <div className="projectsh">Projects</div>
-                <div className="abouth">About</div>
-                <div className="logo"><img className='rowleylogo' src={Homelogo} alt="home-logo"/></div>
+            <div className={
+                this.state.scroll <= 0
+                ? "navbarmainh"
+                : "navbarmainsh"
+                 }>
+                <div className={
+                    this.state.scroll <= 0
+                    ? 'logoh'
+                    : 'logosh'    
+                }><img className={
+                    this.state.scroll <= 0
+                    ? 'rowleylogo'
+                    : 'rowleylogosmall'
+                } src={Homelogo} alt="home-logo"/></div>
+                <div className={
+                    this.state.scroll <= 0
+                    ? "abouth"
+                    : "aboutsh"
+                }>About</div>
+                 <div className={
+                     this.state.scroll <= 0
+                    ? "projectsh"
+                    : "projectssh"
+                }>Projects</div>
+                <div className={
+                    this.state.scroll <= 0
+                    ? "contacth"
+                    : "contactsh"
+                }>Contact</div>
             </div>
         );
     }
