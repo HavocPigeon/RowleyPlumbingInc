@@ -5,15 +5,15 @@
     display: flex;
     color: white;
     text-align: center;
-    flex-direction: row;
+    flex-direction: row-reverse;
     position: relative;
     top: 0;
     left: 0;
-    max-width: 100px;
+    /* max-width: 100px; */
     justify-content: space-around;
     align-items: center;
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Permanent Marker';
     border-bottom-right-radius: 10px;
 }
 .logo {
@@ -28,5 +28,5 @@
     cursor: pointer;
 }
 .abouth, .contacth, .projectsh {
-    display: none;
+    /* display: none; */
 }
