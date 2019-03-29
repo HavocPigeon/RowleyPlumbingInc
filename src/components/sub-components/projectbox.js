@@ -3,7 +3,7 @@ import '../../css/sub-components/projectbox.css';
 
 //styles
 const revDiv = {
-    backgroundColor: 'green'
+    backgroundColor: 'green',
 }
 
 const Projectbox = () => {
