@@ -5,7 +5,9 @@ const About = () => {
     return (
         <div className="aboutmain">
             <div id='aboutanchor'></div>
-            About Section
+            <div className="abouttitle">
+                About
+            </div>
         </div>
     );
 };

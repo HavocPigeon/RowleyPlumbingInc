@@ -46,6 +46,7 @@ table {
   text-align: center;
   background-color: rgb(66, 20, 20);
   min-height: 100vh;
+  font-family: 'Roboto';
 }
 a {
 	text-decoration: none;

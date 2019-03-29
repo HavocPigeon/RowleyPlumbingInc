@@ -16,13 +16,18 @@ const Contact = () => {
                 </div>
                 <div className="indvcontacts">
                     <div className="contactinfow">
-                        <p>
-                            Wayne Spencer:  wayne_rpi@msn.com
+                        <p className='contactnames'>
+                            Wayne Spencer: 
+                        </p>
+                        <p className='emails'>
+                             wayne_rpi@msn.com
                         </p>
                     </div>
                     <div className="contactinfoc">
-                        <p>
-                            Clint Rowley:
+                        <p className='contactnames'>
+                            Clint Rowley: 
+                        </p>
+                        <p className='emails'>
                             clint_rpi@msn.com
                         </p>
                     </div>

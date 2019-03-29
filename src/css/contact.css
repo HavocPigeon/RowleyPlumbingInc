@@ -26,9 +26,17 @@
     box-shadow: 7px 8px #0806066e;
     text-align: center;
 }
+.contactnames {
+    font-family: 'Permanent Marker';
+    font-size: 32px;
+}
 p {
-    font-size: 30px;
+    font-size: 25px;
     padding: 5px 0px;
+}
+.emails {
+    padding-top: 10px;
+    padding-left: 5px;
 }
 .indvcontacts {
     display: flex;
@@ -38,5 +46,8 @@ p {
 }
 .contacttitle {
     font-family: 'Permanent Marker';
-    font-weight: 300;
+    font-weight: 100;
+}
+.contactinfoc, .contactinfow {
+    display: flex;
 }

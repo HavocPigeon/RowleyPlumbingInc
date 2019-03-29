@@ -5,7 +5,9 @@ const Projects = () => {
     return (
         <div className="projectsmain">
             <div id="projectanchor"></div>
-            Projects Section
+            <div className="projecttitle">
+                Past Projects
+            </div>
         </div>
     );
 };

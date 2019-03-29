@@ -31,7 +31,6 @@ export default class Navbar extends Component {
     }
 
     render() {
-        console.log(this.state.scroll);
         return (
             <div className={
                 this.state.scroll <= 0

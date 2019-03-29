@@ -1,6 +1,6 @@
 .projectsmain {
-    height: 100vh;
-    background-color: rgb(170, 48, 48);
+    height: calc(100vh - 75px);
+    background-color: rgb(58, 55, 55);
     border-bottom: solid 5px white;
     color: white;
     z-index: 1;
@@ -9,4 +9,11 @@
 #projectanchor {
     position: absolute;
     top: -80px;
+}
+.projecttitle {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 25px;
+    color: rgb(31, 21, 21);
+    font-style: italic;
 }
