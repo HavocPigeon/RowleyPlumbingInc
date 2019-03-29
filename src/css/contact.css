@@ -1,0 +1,42 @@
+.contactmain {
+    height: 275px;
+    color: black;
+    background-color: rgb(66, 20, 20);
+    width: 100%;
+    position: relative;
+}
+.contactbox {
+    padding-top: 15px;
+    height: 175px;
+    width: calc(100% - 100px);
+    border: solid 5px rgb(109, 27, 27);
+    background-color: rgb(170, 48, 48);
+    color: rgb(231, 209, 209);
+    font-style: italic;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: 900;
+    border-radius: 8px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 7px 8px #0806066e;
+    text-align: center;
+}
+p {
+    font-size: 30px;
+    padding: 5px 0px;
+}
+.indvcontacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+.contacttitle {
+    font-family: 'Permanent Marker';
+    font-weight: 300;
+}

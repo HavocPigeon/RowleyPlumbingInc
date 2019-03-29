@@ -1,9 +1,10 @@
 .landingmain {
-    color: rgb(233, 229, 31);
+    color: rgb(238, 46, 46);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: calc(100vh - 125px);
+    border-bottom: solid 5px white;
 }
 .rpititle {
     font-family: 'Mr Dafoe', cursive;
