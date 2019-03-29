@@ -25,6 +25,10 @@ export default class Navbar extends Component {
             scroll: window.scrollY
         })
     }
+    scrollToTop = () => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 
     render() {
         console.log(this.state.scroll);
@@ -38,26 +42,28 @@ export default class Navbar extends Component {
                     this.state.scroll <= 0
                     ? 'logoh'
                     : 'logosh'    
-                }><img className={
+                }><img onClick={
+                    () => this.scrollToTop()
+                } className={
                     this.state.scroll <= 0
                     ? 'rowleylogo'
                     : 'rowleylogosmall'
                 } src={Homelogo} alt="home-logo"/></div>
-                <div className={
+                <a href="#aboutanchor" className={
                     this.state.scroll <= 0
                     ? "abouth"
                     : "aboutsh"
-                }>About</div>
-                 <div className={
+                }>About</a>
+                 <a href="#projectanchor" className={
                      this.state.scroll <= 0
                     ? "projectsh"
                     : "projectssh"
-                }>Projects</div>
-                <div className={
+                }>Projects</a>
+                <a href="#contactanchor" className={
                     this.state.scroll <= 0
                     ? "contacth"
                     : "contactsh"
-                }>Contact</div>
+                }>Contact</a>
             </div>
         );
     }

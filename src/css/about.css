@@ -3,4 +3,11 @@
     background-color: rgb(66, 20, 20);
     border-bottom: solid 5px white;
     color: white;
+    position: relative;
+    z-index: 1;
+}
+#aboutanchor {
+    width: 100%;
+    position: absolute;
+    top: -80px;
 }

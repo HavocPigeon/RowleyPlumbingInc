@@ -3,4 +3,10 @@
     background-color: rgb(170, 48, 48);
     border-bottom: solid 5px white;
     color: white;
+    z-index: 1;
+    position: relative;
+}
+#projectanchor {
+    position: absolute;
+    top: -80px;
 }
