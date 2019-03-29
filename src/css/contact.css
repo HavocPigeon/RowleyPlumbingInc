@@ -1,8 +1,8 @@
 .contactmain {
     height: 275px;
     color: black;
-    background-color: rgb(66, 20, 20);
     width: 100%;
+    background-image: linear-gradient(to top left,  rgb(138, 41, 41), rgb(66, 20, 20));
     position: relative;
 }
 .contactbox {
@@ -10,7 +10,7 @@
     height: 175px;
     width: calc(100% - 100px);
     border: solid 5px rgb(109, 27, 27);
-    background-color: rgb(170, 48, 48);
+    background-image: linear-gradient(to bottom left, rgb(170, 48, 48), rgb(211, 52, 52));
     color: rgb(231, 209, 209);
     font-style: italic;
     font-family: 'Roboto';

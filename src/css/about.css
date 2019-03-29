@@ -1,7 +1,6 @@
 .aboutmain {
-    height: calc(100vh - 75px);
-    background-color: rgb(66, 20, 20);
-    border-bottom: solid 5px white;
+    min-height: calc(100vh - 75px);
+    background-image: linear-gradient(to top left,  rgb(112, 27, 27), rgb(66, 20, 20));
     color: white;
     position: relative;
     z-index: 1;
@@ -13,8 +12,12 @@
 }
 .abouttitle {
     font-size: 50px;
-    padding-top: 25px;
-    font-weight: 700;
+    padding-top: 100px;
     color: rgb(231, 209, 209);
+    font-style: italic;
+    font-family: 'Permanent Marker';
+}
+.abouttitledescr {
+    padding-top: 10px;
     font-style: italic;
 }
