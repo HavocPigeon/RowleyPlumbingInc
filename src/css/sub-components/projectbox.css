@@ -1,5 +1,15 @@
 .projectboxmain {
     height: 300px;
     width: 500px;
-    background-color: blue;
+    background-color: rgb(160, 145, 145);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.projectboxreversemain {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(160, 145, 145);
+    display: flex;
+    flex-direction: column;
 }

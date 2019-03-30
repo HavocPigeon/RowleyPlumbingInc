@@ -22,7 +22,16 @@
     padding-top: 10px;
     font-style: italic;
 }
-.projectboxblockone {
+.projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
     display: flex;
     justify-content: space-around;
+}
+.projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
+    padding-top: 100px;
+}
+.projectboxblockone {
+    padding-top: 200px;
+}
+.projectboxblocksix {
+    padding-bottom: 300px;
 }
