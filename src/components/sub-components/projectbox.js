@@ -16,7 +16,7 @@ export default class Projectbox extends Component {
                     {this.props.productImage}
                 </div>
                 <div className="projectsite">
-                    <a href={this.props.projectSite}></a>
+                    <a href={this.props.projectSite} target='_blank' rel="noopener noreferrer">Site</a>
                 </div>
             </div>
         );
