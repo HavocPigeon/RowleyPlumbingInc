@@ -89,7 +89,7 @@ export default class Projects extends Component {
                 Past Projects
             </div>
             <div className="projecttitledescr">
-                Check Out Some Of Our Past Projects
+                Some Of Our Past Projects
             </div>
             <div className="projectscontainer">
                 <div className="projectboxblockone">

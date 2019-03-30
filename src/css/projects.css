@@ -1,7 +1,7 @@
 .projectsmain {
     min-height: calc(100vh - 75px);
     background-color: rgb(58, 55, 55);
-    background-image: linear-gradient(to bottom left, rgb(48, 46, 46), rgb(75, 70, 70));
+    background-image: linear-gradient(to bottom left, rgb(48, 46, 46), rgb(112, 102, 102));
     color: white;
     z-index: 1;
     position: relative;
