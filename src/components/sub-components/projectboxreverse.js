@@ -12,6 +12,9 @@ export default class Projectboxreverse extends Component {
                 <div className="projectname">
                     {this.props.projectName}
                 </div>
+                <div className="projectaddress">
+                    {this.props.projectAddress}
+                </div>
                 <div className="projectsite">
                     <a href={this.props.projectSite}></a>
                 </div>

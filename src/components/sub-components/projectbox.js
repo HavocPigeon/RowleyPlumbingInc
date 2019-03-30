@@ -9,6 +9,9 @@ export default class Projectbox extends Component {
                 <div className="projectname">
                     {this.props.projectName}
                 </div>
+                <div className="projectaddress">
+                    {this.props.projectAddress}
+                </div>
                 <div className="projectimage">
                     {this.props.productImage}
                 </div>
