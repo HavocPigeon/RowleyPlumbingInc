@@ -2,7 +2,9 @@
     min-height: calc(100vh - 75px);
     background-image: linear-gradient(to top left,  rgb(112, 27, 27), rgb(66, 20, 20));
     color: white;
+    background-color: transparent;
     position: relative;
+    width: 100%;
 }
 #aboutanchor {
     width: 100%;

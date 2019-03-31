@@ -4,27 +4,7 @@ import Homelogo from '../Images/Final Logo.jpg';
 
 
 export default class Navbar extends Component {
-    constructor(){
-        super();
-        this.state = {
-            scroll: 0,
-        }
-    }
 
-    componentDidMount(){
-        window.addEventListener('scroll', this.handleScroll)
-    }
-
-    //scroll y position
-    componentWillUnmount(){
-        window.removeEventListener('scroll', this.handleScroll)
-    }
-    
-    handleScroll = () => {
-        this.setState({
-            scroll: window.scrollY
-        })
-    }
     scrollToTop = () => {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
@@ -33,33 +13,33 @@ export default class Navbar extends Component {
     render() {
         return (
             <div className={
-                this.state.scroll <= 0
+                this.props.scrollposition <= 0
                 ? "navbarmainh"
                 : "navbarmainsh"
                  }>
                 <div className={
-                    this.state.scroll <= 0
+                    this.props.scrollposition <= 0
                     ? 'logoh'
                     : 'logosh'    
                 }><img onClick={
-                    () => this.scrollToTop()
+                    () => this.scrollpositionToTop()
                 } className={
-                    this.state.scroll <= 0
+                    this.props.scrollposition <= 0
                     ? 'rowleylogo'
                     : 'rowleylogosmall'
                 } src={Homelogo} alt="home-logo"/></div>
                 <a href="#aboutanchor" className={
-                    this.state.scroll <= 0
+                    this.props.scrollposition <= 0
                     ? "abouth"
                     : "aboutsh"
                 }>About</a>
                  <a href="#projectanchor" className={
-                     this.state.scroll <= 0
+                     this.props.scrollposition <= 0
                     ? "projectsh"
                     : "projectssh"
                 }>Projects</a>
                 <a href="#contactanchor" className={
-                    this.state.scroll <= 0
+                    this.props.scrollposition <= 0
                     ? "contacth"
                     : "contactsh"
                 }>Contact</a>
