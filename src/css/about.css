@@ -3,7 +3,6 @@
     background-image: linear-gradient(to top left,  rgb(112, 27, 27), rgb(66, 20, 20));
     color: white;
     position: relative;
-    z-index: 1;
 }
 #aboutanchor {
     width: 100%;
