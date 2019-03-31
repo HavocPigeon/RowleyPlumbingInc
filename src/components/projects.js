@@ -56,9 +56,9 @@ export default class Projects extends Component {
                 image: '',
             },
             {
-                name: 'City Gate Staybridge',
-                address: 'unk',
-                site: 'unk',
+                name: 'Staybridge Suites GIlbert',
+                address: '5275 E. Baseline Road Gilbert, Az 85234',
+                site: 'https://www.ihg.com/staybridge/hotels/us/en/gilbert/phxgl/hoteldetail',
                 image: '',
             },
             {

@@ -1,11 +1,15 @@
 import React from 'react';
 import '../css/contact.css';
+import rowleyOuthouse from '../Images/Rowley outhouse.png';
 
 const Contact = () => {
     return (
         <div className="contactmain">
             <div id="contactanchor"></div>
             <div className="contactbox">
+                <div className="outhouse">
+                    <img className='rowleyouthouse' src={rowleyOuthouse} alt="outhouse-logo"/>
+                </div>
                 <div className="contacttitle">
                     Contact Us
                 </div>
@@ -32,6 +36,9 @@ const Contact = () => {
                         </p>
                     </div>
                 </div>
+            </div>
+            <div className="createdby">
+                Created By Easton Spencer © 2019
             </div>
         </div>
     );

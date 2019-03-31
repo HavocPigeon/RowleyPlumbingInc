@@ -1,13 +1,12 @@
 .contactmain {
-    height: 275px;
+    min-height: 355px;
     color: black;
     width: 100%;
     background-image: linear-gradient(to top left,  rgb(138, 41, 41), rgb(66, 20, 20));
     position: relative;
 }
 .contactbox {
-    padding-top: 15px;
-    height: 175px;
+    height: 250px;
     width: calc(100% - 100px);
     border: solid 5px rgb(109, 27, 27);
     background-image: linear-gradient(to bottom left, rgb(170, 48, 48), rgb(211, 52, 52));
@@ -48,6 +47,25 @@ p {
     font-family: 'Permanent Marker';
     font-weight: 100;
 }
-.contactinfoc, .contactinfow {
+.contactinfoc, .contactinfow, .topsection{
     display: flex;
+}
+.rowleyouthouse {
+    height: 65px;
+    justify-content: flex-start;
+    width: auto;
+}
+.outhouse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.createdby {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    font-style: italic;
+    font-weight: 500;
 }

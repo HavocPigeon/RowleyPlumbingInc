@@ -5,6 +5,7 @@ import Landing from './components/landing.js';
 import Contact from './components/contact.js';
 import About from './components/about.js';
 import Projects from './components/projects.js';
+import Landingcover from './components/landingcover.js';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <div className="App">
           <Navbar />
           <Landing />
+          <Landingcover />
           <About />
           <Projects />
           <Contact />

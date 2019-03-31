@@ -44,7 +44,7 @@ table {
 
 .App {
   text-align: center;
-  background-color: rgb(66, 20, 20);
+  background-color: transparent;
   min-height: 100vh;
   font-family: 'Roboto';
 }

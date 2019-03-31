@@ -3,7 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 125px);
+    background-color: transparent;
+    position: absolute;
+    top: 150px;
+    right: 0;
+    left: 0;
+    z-index: -50;
 }
 .rpititle {
     font-family: 'Mr Dafoe', cursive;
