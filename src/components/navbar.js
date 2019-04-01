@@ -22,7 +22,7 @@ export default class Navbar extends Component {
                     ? 'logoh'
                     : 'logosh'    
                 }><img onClick={
-                    () => this.scrollpositionToTop()
+                    () => this.scrollToTop()
                 } className={
                     this.props.scrollposition <= 0
                     ? 'rowleylogo'
