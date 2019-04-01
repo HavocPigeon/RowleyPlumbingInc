@@ -31,9 +31,9 @@ handleScroll = () => {
 }
 
   render() {
-    const element = document.getElementById('test');
-    const rect = element.getBoundingClientRect();
-    console.log(rect.top);
+    // const element = document.getElementById('test');
+    // const rect = element.getBoundingClientRect();
+    // console.log(rect.top);
     return (
       <div className="App">
       <div id="test"></div>

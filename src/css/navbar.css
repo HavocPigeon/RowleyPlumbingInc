@@ -1,5 +1,5 @@
 .navbarmainh {
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(0, 0, 0), rgb(39, 32, 32));;
     width: 100%;
     height: 75px;
     padding: 25px 0px;
@@ -18,7 +18,7 @@
     font-family: 'Permanent Marker';    border-bottom: solid 5px white;
 }
 .navbarmainsh {
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(0, 0, 0), rgb(39, 32, 32));;
     padding: 0px 0px;
     transition: padding 2.7s ease-in-out;
     width: 100%;
