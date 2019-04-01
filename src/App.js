@@ -6,42 +6,46 @@ import Contact from './components/contact.js';
 import About from './components/about.js';
 import Projects from './components/projects.js';
 import Landingcover from './components/landingcover.js';
-import ProjectsBg from './components/projectsbg.js';
 
 class App extends Component {
   constructor(){
     super();
+    this.selector = React.createRef();
     this.state = {
       scroll: 0,
+      aboutPositionY: 0,
     }
   }
   componentDidMount(){
     window.addEventListener('scroll', this.handleScroll)
-}
+    const rect = this.selector.current.getBoundingClientRect();
+    setTimeout(() => {
+      this.setState({
+        aboutPositionY: rect.top,
+      })
+      console.log(this.state.aboutPositionY);
+    }, 100);
+  }
 
-//scroll y position
-componentWillUnmount(){
+  //scroll y position
+  componentWillUnmount(){
     window.removeEventListener('scroll', this.handleScroll)
-}
+  }
 
-handleScroll = () => {
+  handleScroll = () => {
     this.setState({
         scroll: window.scrollY
     })
-}
+  }
 
   render() {
-    // const element = document.getElementById('test');
-    // const rect = element.getBoundingClientRect();
-    // console.log(rect.top);
     return (
       <div className="App">
-      <div id="test"></div>
           <Navbar scrollposition={this.state.scroll}/>
-          <Landingcover scrollposition={this.state.scroll} />
+          <Landingcover windowposition={this.state.scroll} aboutposition={this.state.aboutPositionY} />
           <Landing />
+          <div ref={this.selector} className="aboutposition"></div>
           <About />
-          {/* <ProjectsBg /> */}
           <Projects />
           <Contact />
       </div>
