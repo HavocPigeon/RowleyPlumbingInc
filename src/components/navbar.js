@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/navbar.css';
-import Homelogo from '../Images/Final Logo.jpg';
+import Homelogo from '../Images/Final Logo.png';
 
 
 export default class Navbar extends Component {
