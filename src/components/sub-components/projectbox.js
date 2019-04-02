@@ -14,7 +14,7 @@ export default class Projectbox extends Component {
                 <div className="projectaddress">
                     {this.props.projectAddress}
                 </div>
-                <img className='projectimage' src={require(this.props.projectImage)} alt="projectthumbnail"/>
+                {/* <img className='projectimage' src={require(this.props.projectImage)} alt="projectthumbnail"/> */}
                 <div className="projectsite">
                     <a href={this.props.projectSite} target='_blank' rel="noopener noreferrer">Site</a>
                 </div>
