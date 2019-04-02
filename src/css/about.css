@@ -3,7 +3,9 @@
     background-image: linear-gradient(to top left,  rgb(112, 27, 27), rgb(66, 20, 20));
     color: white;
     background-color: transparent;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 #aboutanchor {

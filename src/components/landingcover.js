@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
-import '../css/landingcover.css';
+import React from 'react';
+import '../css/landingcovers.css';
 
+const Landingcover = () => {
+    return (
+        <div className="landingcovermain"></div>
+    );
+};
 
-export default class Landingcover extends Component {
-    render() {
-        return (
-            <div className={this.props.aboutposition < this.props.windowposition 
-            ? 'landingcovermain'
-            : 'landingcovermainv2'}>
-            </div>
-        );
-    }
-}
+export default Landingcover;
