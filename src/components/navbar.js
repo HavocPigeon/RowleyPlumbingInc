@@ -28,17 +28,17 @@ export default class Navbar extends Component {
                     ? 'rowleylogo'
                     : 'rowleylogosmall'
                 } src={Homelogo} alt="home-logo"/></div>
-                <a href="#aboutanchor" className={
+                <a href="#about" className={
                     this.props.scrollposition <= 0
                     ? "abouth"
                     : "aboutsh"
                 }>About</a>
-                 <a href="#projectanchor" className={
+                 <a href="#projects" className={
                      this.props.scrollposition <= 0
                     ? "projectsh"
                     : "projectssh"
                 }>Projects</a>
-                <a href="#contactanchor" className={
+                <a href="#contact" className={
                     this.props.scrollposition <= 0
                     ? "contacth"
                     : "contactsh"

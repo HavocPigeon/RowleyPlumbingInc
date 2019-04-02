@@ -4,6 +4,7 @@ import Projectbox from './sub-components/projectbox.js';
 import Projectboxreverse from './sub-components/projectboxreverse.js';
 
 
+
 export default class Projects extends Component {
     render() {
         const projects = [
@@ -11,7 +12,7 @@ export default class Projects extends Component {
                 name: 'Emerson Mill Avenue',
                 address: '101 W 5th St Tempe, Az 85281',
                 site: 'https://www.mark-taylor.com/apartments/az/tempe/emerson-mill-avenue/',
-                image: '',
+                image: '../../Images/Project Images/Emerson Mill Avenue.jpg',
             },
             {
                 name: 'Phoenix Airport Mariott',
@@ -79,12 +80,11 @@ export default class Projects extends Component {
                 site: 'https://home2suites3.hilton.com/en/hotels/arizona/home2-suites-by-hilton-phoenix-glendale-westgate-PHXGWHT/index.html',
                 image: '',
             },
-            
         ]
 
         return (
             <div className="projectsmain">
-            <div id="projectanchor"></div>
+            <div id="projects"></div>
             <div className="projecttitle">
                 Past Projects
             </div>

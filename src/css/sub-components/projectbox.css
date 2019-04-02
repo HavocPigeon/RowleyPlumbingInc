@@ -1,9 +1,11 @@
 .projectboxmain, .projectboxreversemain {
     height: 300px;
     width: 500px;
+    background-image: linear-gradient(rgb(65, 65, 65), rgb(65, 65, 65));
     background-color: rgb(160, 145, 145);
     display: flex;
     flex-direction: column;
+    color: rgb(180, 176, 176);
     border-radius: 8px;
-    border: solid 2px rgb(99, 91, 91);
+    border: solid 1px rgb(121, 118, 118);
 }

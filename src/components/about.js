@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="aboutmain">
             {/* <Landingcovertwo /> */}
-            <div id='aboutanchor'></div>
+            <div id='about'></div>
             <div className="abouttitle">
                 About
             </div>

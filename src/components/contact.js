@@ -5,7 +5,7 @@ import rowleyOuthouse from '../Images/Rowley outhouse.png';
 const Contact = () => {
     return (
         <div className="contactmain">
-            <div id="contactanchor"></div>
+            <div id="contact"></div>
             <div className="contactbox">
                 <div className="outhouse">
                     <img className='rowleyouthouse' src={rowleyOuthouse} alt="outhouse-logo"/>
