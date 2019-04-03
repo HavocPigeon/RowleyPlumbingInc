@@ -8,7 +8,7 @@
     left: 0;
     width: 100%;
 }
-#aboutanchor {
+#about {
     width: 100%;
     position: absolute;
     top: -80px;
@@ -17,6 +17,7 @@
     font-size: 50px;
     padding-top: 100px;
     color: rgb(231, 209, 209);
+    text-shadow: -1px 0 rgb(255, 0, 0), 0 1px rgb(255, 0, 0), 0 -1px rgb(255, 0, 0);
     font-style: italic;
     font-family: 'Permanent Marker';
 }

@@ -21,6 +21,7 @@
     background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(0, 0, 0), rgb(39, 32, 32));;
     padding: 0px 0px;
     transition: padding 2.7s ease-in-out;
+    text-shadow: -2px 0 rgb(107, 107, 107), 0 2px rgb(107, 107, 107), 0 -2px rgb(107, 107, 107);
     width: 100%;
     height: 75px;
     display: flex;

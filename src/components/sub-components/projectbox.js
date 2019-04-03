@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import '../../css/sub-components/projectbox.css';
-
+import imageOne from '../../Images/Project Images/Emerson Mill Avenue.jpg';
+import imageThree from '../../Images/Project Images/Esplanade Place.jpg';
+import imageFive from '../../Images/Project Images/Bridgeview.jpg';
+import imageSeven from '../../Images/Project Images/Residence Inn Flagstaff.jpg';
+import imageNine from '../../Images/Project Images/Staybridge Suites Gilbert.jpg';
+import imageEleven from '../../Images/Project Images/Fairfield Inn and Suits.jpg';
 
 
 export default class Projectbox extends Component {
     render() {
-        console.log(this.props.projectImage);
         return (
             <div className="projectboxmain">
                 <div className="projectname">
@@ -14,9 +18,23 @@ export default class Projectbox extends Component {
                 <div className="projectaddress">
                     {this.props.projectAddress}
                 </div>
-                {/* <img className='projectimage' src={require(this.props.projectImage)} alt="projectthumbnail"/> */}
                 <div className="projectsite">
-                    <a href={this.props.projectSite} target='_blank' rel="noopener noreferrer">Site</a>
+                    <a href={this.props.projectSite} target='_blank' rel="noopener noreferrer">
+                    <img className='projectimage' src={
+                    this.props.projectImage === 1
+                    ? imageOne 
+                    : this.props.projectImage === 3
+                    ? imageThree
+                    : this.props.projectImage === 5
+                    ? imageFive
+                    : this.props.projectImage === 7
+                    ? imageSeven
+                    : this.props.projectImage === 9
+                    ? imageNine
+                    : this.props.projectImage === 11
+                    ? imageEleven : imageOne
+                } alt="projectthumbnail"/>
+                    </a>
                 </div>
             </div>
         );
