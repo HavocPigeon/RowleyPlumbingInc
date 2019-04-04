@@ -7,6 +7,7 @@ import About from './components/about.js';
 import Projects from './components/projects.js';
 import Landingcover from './components/landingcover.js';
 import Landingcovertwo from './components/landingcovertwo.js';
+import Bottomnavbar from './components/bottomnavbar.js';
 
 class App extends Component {
   constructor(){
@@ -33,9 +34,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <Navbar scrollposition={this.state.scroll}/>
+          <Navbar scrollposition={this.state.scroll} />
           <Landingcover />
           <Landing />
+          <Bottomnavbar scrollposition={this.state.scroll} />
           <div className="sectiontwo">
             <Landingcovertwo />
             <About />

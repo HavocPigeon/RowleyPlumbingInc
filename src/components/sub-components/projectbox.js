@@ -21,19 +21,19 @@ export default class Projectbox extends Component {
                 <div className="projectsite">
                     <a href={this.props.projectSite} target='_blank' rel="noopener noreferrer">
                     <img className='projectimage' src={
-                    this.props.projectImage === 1
-                    ? imageOne 
-                    : this.props.projectImage === 3
-                    ? imageThree
-                    : this.props.projectImage === 5
-                    ? imageFive
-                    : this.props.projectImage === 7
-                    ? imageSeven
-                    : this.props.projectImage === 9
-                    ? imageNine
-                    : this.props.projectImage === 11
-                    ? imageEleven : imageOne
-                } alt="projectthumbnail"/>
+                        this.props.projectImage === 1
+                        ? imageOne 
+                        : this.props.projectImage === 3
+                        ? imageThree
+                        : this.props.projectImage === 5
+                        ? imageFive
+                        : this.props.projectImage === 7
+                        ? imageSeven
+                        : this.props.projectImage === 9
+                        ? imageNine
+                        : this.props.projectImage === 11
+                        ? imageEleven : imageOne
+                    } alt="projectthumbnail"/>
                     </a>
                 </div>
             </div>

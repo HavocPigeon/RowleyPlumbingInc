@@ -26,7 +26,7 @@ export default class Projectboxreverse extends Component {
                         ? imageTen
                         : this.props.projectImage === 12
                         ? imageTwelve : imageTwo
-                } alt="projectthumbnail"/>
+                    } alt="projectthumbnail"/>
                     </a>
                 <div className="projectname">
                     {this.props.projectName}

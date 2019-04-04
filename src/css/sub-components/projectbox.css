@@ -1,16 +1,15 @@
 .projectboxmain, .projectboxreversemain {
-    min-height: 300px;
-    width: 550px;
+    min-height: 450px;
+    width: 475px;
     background-color: rgb(160, 145, 145);
     display: flex;
     flex-direction: column;
     color: rgb(180, 176, 176);
     position: relative;
     border-radius: 8px;
-    border: solid 1px rgb(121, 118, 118);
 }
 .projectboxmain {
-    background-image: linear-gradient(rgb(24, 23, 23) 1%, rgb(255, 255, 255));
+    background-image: linear-gradient(rgb(24, 23, 23) 7%, rgb(255, 255, 255), rgb(24, 23, 23));
 }
 .projectboxreversemain {
     background-image: linear-gradient(rgb(255, 255, 255) 10%, rgb(24, 23, 23));
@@ -28,7 +27,7 @@
     padding-bottom: 25px;
 }
 .projectimage {
-    height: 400px;
+    height: 350px;
     width: 100%;
 }
 img {

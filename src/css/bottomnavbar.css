@@ -1,0 +1,46 @@
+.bottomnavbarmain {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 75px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    transition: 1s ease-in-out;
+    align-items: center;
+    color: rgb(65, 64, 64);
+    font-size: 35px;
+    font-family: 'Permanent Marker';
+    text-shadow: -3px 0 rgb(68, 68, 68), 0 3px rgb(59, 59, 59), 0 -3px rgb(65, 65, 65);
+}
+.icons {
+    height: 30px;
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.abouttag, .projectstag, .contacttag {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+.bottomnavbarhidden {
+    position: absolute;
+    bottom: -125px;
+    left: 0;
+    right: 0;
+    min-height: 75px;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(65, 64, 64);
+    font-size: 35px;
+    font-family: 'Permanent Marker';
+    text-shadow: -2px 0 rgb(102, 102, 102), 0 2px rgb(102, 102, 102), 0 -2px rgb(102, 102, 102);
+}
