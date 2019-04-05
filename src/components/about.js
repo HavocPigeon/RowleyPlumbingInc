@@ -129,9 +129,11 @@ export default class About extends Component {
                             }></div>
                         </button>
                     </div>
+
                     <div className="timelineright">
                         There
                     </div>
+                    
                 </div>
             </div>
         );

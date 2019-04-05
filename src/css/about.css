@@ -40,7 +40,9 @@
 }
 .timelineright {
     flex: 1;
-    background-color: blue;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
     height: 500px;
     width: 100%;
 }
