@@ -48,52 +48,70 @@
     width: 5px;
     margin: 5px 0px;
     height: 100px;
+    transition: 1s ease-in-out;
     background-color: rgb(46, 46, 46);
     border-radius: 3px;
 }
 #timelinelengthactive {
     width: 5px;
     margin: 5px 0px;
+    transition: 1s ease-in-out;
     height: 100px;
     background-color: rgb(179, 179, 179);
     border-radius: 3px;
 }
 #triangle {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background-color: white;
+    animation-name: reversetriangle;
+    animation-duration: 1s;
     
 }
 #triangleactive {
-    width: 0;
-    height: 0;
-    border-top: 25px solid transparent;
-    border-left: 50px solid red;
-    border-bottom: 25px solid transparent;
-    margin-left: 47px;
-    background-color: transparent;
-    animation-name: triangle;
-    animation-duration: 10s;
-}
-#triangleactive {
-    background-color: 
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: rgb(112, 112, 112);
+        animation-name: triangle;
+        animation-duration: 1s;
+        border: 3px solid rgb(37, 37, 37);
 }
 button {
     background-color: transparent;
     border: none;
 }
 @keyframes triangle {
-    from {
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-bottom: 50px solid rgb(204, 204, 204);
-    margin-left: 0px;
+    0% {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: white;
     }
-    to {
-    border-top: 25px solid transparent;
-    border-left: 50px solid red;
-    border-bottom: 25px solid transparent;
-    margin-left: 50px;
+    50% {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgb(112, 112, 112);
+        border: 2px solid rgb(39, 39, 39);
+    }
+}
+@keyframes reversetriangle {
+    0%{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: rgb(112, 112, 112);
+        animation-name: triangle;
+        animation-duration: 1s;
+        border: 3px solid rgb(37, 37, 37);
+    }
+    50%{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgb(112, 112, 112);
+        border: 2px solid rgb(39, 39, 39);
     }
 }
