@@ -42,7 +42,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+button {
+	cursor: pointer;
+}
+button:focus, a:focus {
+	outline: none;
+}
 .App {
   text-align: center;
   background-color: transparent;
@@ -58,4 +63,17 @@ a {
   background-color: transparent;
   min-height: 100vh;
   font-family: 'Roboto';
+}
+::-webkit-scrollbar {
+	width: 12px;
+}
+::-webkit-scrollbar-track {
+	background: #212529;
+}
+::-webkit-scrollbar-thumb {
+	background: rgb(70, 69, 69);
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(156, 151, 151);
 }
