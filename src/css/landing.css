@@ -1,32 +1,28 @@
 .landingmain {
     color: rgb(83, 8, 8);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: transparent;
     position: absolute;
     top: 130px;
-    right: 0;
-    left: 0;
     z-index: -50;
+    width: 100%;
 }
 .rpititle {
     font-family: 'Mr Dafoe', cursive;
     width: 100%;
     font-size: 150px;
     text-shadow: -2px 0 rgb(255, 0, 0), 0 2px rgb(255, 0, 0);
-    display: flex;
     padding-bottom: 30px;
+    display: flex;
     justify-content: flex-start;
     padding-left: 25px;
 }
-span {
+.plumbinginc {
     font-size: 45px;
     text-shadow: -1px 0 rgb(58, 55, 55), 0 1px rgb(58, 55, 55);
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
     padding-left: 20px;
     font-family: 'Poppins', sans-serif;
     padding-top: 70px;
@@ -38,11 +34,54 @@ span {
     font-weight: 100;
     padding-top: 10px;
     padding-right: 100px;
+    font-family: 'Poppins', sans-serif;
 }
 .secondarytitle {
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
+}
+@media (max-width: 750px){
+    .rpititle {
+        font-size: 125px;
+    }
+    .plumbinginc {
+        font-size: 30px;
+        padding-left: 15px;
+        padding-top: 55px;
+    }
+    .established {
+        padding-top: 7px;
+        padding-right: 0px;
+        padding-left: 100px;
+    }
+    .secondarytitle {
+        padding-top: 10px;
+    }
+}
+@media(max-width: 610px){
+    .rpititle {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 25px;
+        margin-left: 0px;
+        position: relative;
+   }
+   .primarytitle {
+       position: absolute;
+       left: 25px;
+       top: 0px;
+   }
+    .secondarytitle {
+        position: absolute;
+        left: 30px;
+        top: 40px;
+    }
+    .established {
+        color: rgb(0, 0, 0);
+        text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255);
+        padding-left: 0px;
+    }
 }
 

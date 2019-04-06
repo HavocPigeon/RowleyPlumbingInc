@@ -1,5 +1,5 @@
 .projectboxmain, .projectboxreversemain {
-    min-height: 450px;
+    height: 450px;
     width: 475px;
     background-color: rgb(160, 145, 145);
     display: flex;

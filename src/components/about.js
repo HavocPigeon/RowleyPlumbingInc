@@ -6,62 +6,101 @@ export default class About extends Component {
     constructor(){
         super();
         this.state = {
-            triangleOne: 'active',
-            triangleTwo: 'inactive',
-            triangleThree: 'inactive',
-            triangleFour: 'inactive',
-            triangleFive: 'inactive',
+            circleOne: 'active',
+            circleTwo: 'inactive',
+            circleThree: 'inactive',
+            circleFour: 'inactive',
+            circleFive: 'inactive',
         }
     }
 
-    activatetriangleOne = () => {
+    activateCircleOne = () => {
         this.setState({
-            triangleOne: 'active',
-            triangleTwo: 'inactive',
-            triangleThree: 'inactive',
-            triangleFour: 'inactive',
-            triangleFive: 'inactive',
+            circleOne: 'active',
+            circleTwo: 'inactive',
+            circleThree: 'inactive',
+            circleFour: 'inactive',
+            circleFive: 'inactive',
         })
+        setTimeout(() => {
+            // this.activateCircleTwo();
+        }, 10000);
     }
-    activatetriangleTwo = () => {
+    activateCircleTwo = () => {
         this.setState({
-            triangleOne: 'inactive',
-            triangleTwo: 'active',
-            triangleThree: 'inactive',
-            triangleFour: 'inactive',
-            triangleFive: 'inactive',
+            circleOne: 'inactive',
+            circleTwo: 'active',
+            circleThree: 'inactive',
+            circleFour: 'inactive',
+            circleFive: 'inactive',
         })
+        setTimeout(() => {
+            // this.activateCircleThree();
+        }, 10000);
     }
-    activatetriangleThree = () => {
+    activateCircleThree = () => {
         this.setState({
-            triangleOne: 'inactive',
-            triangleTwo: 'inactive',
-            triangleThree: 'active',
-            triangleFour: 'inactive',
-            triangleFive: 'inactive',
+            circleOne: 'inactive',
+            circleTwo: 'inactive',
+            circleThree: 'active',
+            circleFour: 'inactive',
+            circleFive: 'inactive',
         })
+        setTimeout(() => {
+            // this.activateCircleFour();
+        }, 10000);
     }
-    activatetriangleFour = () => {
+    activateCircleFour = () => {
         this.setState({
-            triangleOne: 'inactive',
-            triangleTwo: 'inactive',
-            triangleThree: 'inactive',
-            triangleFour: 'active',
-            triangleFive: 'inactive',
+            circleOne: 'inactive',
+            circleTwo: 'inactive',
+            circleThree: 'inactive',
+            circleFour: 'active',
+            circleFive: 'inactive',
         })
+        setTimeout(() => {
+            // this.activateCircleFive();
+        }, 10000);
     }
-    activatetriangleFive = () => {
+    activateCircleFive = () => {
         this.setState({
-            triangleOne: 'inactive',
-            triangleTwo: 'inactive',
-            triangleThree: 'inactive',
-            triangleFour: 'inactive',
-            triangleFive: 'active',
+            circleOne: 'inactive',
+            circleTwo: 'inactive',
+            circleThree: 'inactive',
+            circleFour: 'inactive',
+            circleFive: 'active',
         })
+        setTimeout(() => {
+            // this.activateCircleOne();
+        }, 10000);
+    }
+    
+    componentDidMount = () => {
+        setTimeout(() => {  
+            this.findNextActiveCircle();
+        }, 10000);
+    }
+    findNextActiveCircle = () => {
+        const currentActive = Object.keys(this.state).find(key => this.state[key] === 'active').match(/[A-Z][a-z]+/g)[0]
+
+        if (currentActive === "One"){
+            this.activateCircleTwo();
+        } else if (currentActive === 'Two'){
+            this.activateCircleThree();
+        } else if  (currentActive === 'Three'){
+            this.activateCircleFour();
+        } else if (currentActive === 'Four'){
+            this.activateCircleFive();
+        } else if (currentActive === 'Five'){
+            this.activateCircleOne();
+        } else this.activateCircleOne();
+        setTimeout(() => {
+            this.findNextActiveCircle();
+        }, 10000);
+
     }
 
     render() {
-        console.log(this.state);
         return (
             <div className="aboutmain">
                 <div id='about'></div>
@@ -73,65 +112,89 @@ export default class About extends Component {
                 </div>
                 <div className="timelinecontainer">
                     <div className="timelineleft">
-                        <button onClick={() => this.activatetriangleOne()}>
+                        <button onClick={() => this.activateCircleOne()}>
                             <div id={
-                                this.state.triangleOne === 'active' 
-                                ? 'triangleactive'
-                                : 'triangle'
+                                this.state.circleOne === 'active' 
+                                ? 'circleactive'
+                                : 'circle'
                             }></div>
                         </button>
                         <div id={
-                            this.state.triangleOne === 'inactive' 
+                            this.state.circleOne === 'inactive' 
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => this.activatetriangleTwo()}>
+                        <button onClick={() => this.activateCircleTwo()}>
                             <div id={
-                            this.state.triangleTwo === 'active' 
-                            ? 'triangleactive'
-                            : 'triangle'
+                            this.state.circleTwo === 'active' 
+                            ? 'circleactive'
+                            : 'circle'
                             }></div>
                         </button>
                         <div id={
-                            this.state.triangleTwo === 'inactive' && this.state.triangleOne === 'inactive'
+                            this.state.circleTwo === 'inactive' && this.state.circleOne === 'inactive'
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => this.activatetriangleThree()}>
+                        <button onClick={() => this.activateCircleThree()}>
                             <div id={
-                            this.state.triangleThree === 'active' 
-                            ? 'triangleactive'
-                            : 'triangle'
+                            this.state.circleThree === 'active' 
+                            ? 'circleactive'
+                            : 'circle'
                             }></div>
                         </button>
                         <div id={
-                            this.state.triangleFour === 'active' || this.state.triangleFive === 'active'
+                            this.state.circleFour === 'active' || this.state.circleFive === 'active'
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => this.activatetriangleFour()}>
+                        <button onClick={() => this.activateCircleFour()}>
                         <div id={
-                            this.state.triangleFour === 'active' 
-                            ? 'triangleactive'
-                            : 'triangle'
+                            this.state.circleFour === 'active' 
+                            ? 'circleactive'
+                            : 'circle'
                             }></div>
                         </button>
                         <div id={
-                            this.state.triangleFive === 'active' 
+                            this.state.circleFive === 'active' 
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => this.activatetriangleFive()}>
+                        <button onClick={() => this.activateCircleFive()}>
                             <div id={
-                            this.state.triangleFive === 'active' 
-                            ? 'triangleactive'
-                            : 'triangle'
+                            this.state.circleFive === 'active' 
+                            ? 'circleactive'
+                            : 'circle'
                             }></div>
                         </button>
                     </div>
 
                     <div className="timelineright">
-                        There
+                        <p className={
+                            this.state.circleOne === 'active' 
+                            ? 'abouttextshown'
+                            : 'abouttexthidden'
+                        }>1</p>
+                        <p className={
+                            this.state.circleTwo === 'active' 
+                            ? 'abouttextshown'
+                            : 'abouttexthidden'
+                        }>2</p>
+                        <p className={
+                            this.state.circleThree === 'active' 
+                            ? 'abouttextshown'
+                            : 'abouttexthidden'
+                        }>3</p>
+                        <p className={
+                            this.state.circleFour === 'active' 
+                            ? 'abouttextshown'
+                            : 'abouttexthidden'
+                        }>4</p>
+                        <p className={
+                            this.state.circleFive === 'active' 
+                            ? 'abouttextshown'
+                            : 'abouttexthidden'
+                        }>5</p>
                     </div>
                     
                 </div>

@@ -36,3 +36,8 @@
 .projectboxblocksix {
     padding-bottom: 300px;
 }
+@media (max-width: 1150px){
+    .projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
+        flex-direction: column;
+    }
+}
