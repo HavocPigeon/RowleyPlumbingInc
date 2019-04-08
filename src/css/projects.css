@@ -36,8 +36,41 @@
 .projectboxblocksix {
     padding-bottom: 300px;
 }
-@media (max-width: 1150px){
+@media (max-width: 1075px){
     .projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
         flex-direction: column;
+    }
+    .projectscontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 1000px){
+    .projectboxblocksix {
+        padding-bottom: 150px;
+    }
+    .projecttitle {
+        padding-top: 150px;
+    }
+}
+@media (max-width: 750px){
+    .projectsmain {
+        padding-top: 421px;
+    }
+    .projecttitle {
+        padding-top: 150px;
+    }
+}
+@media (max-width: 580px){
+    .projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (max-width: 500px){
+    .projectboxblockone {
+        padding-top: 150px;
     }
 }

@@ -34,15 +34,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          {/* <Navbar scrollposition={this.state.scroll} /> */}
+          <Navbar scrollposition={this.state.scroll} />
           <Landingcover />
           <Landing />
           <Bottomnavbar scrollposition={this.state.scroll} />
           <div className="sectiontwo">
             <Landingcovertwo />
-            {/* <About /> */}
+            <About />
             <Projects />
-            {/* <Contact /> */}
+            <Contact />
           </div>
       </div>
     );

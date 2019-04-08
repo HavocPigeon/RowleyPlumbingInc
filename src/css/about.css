@@ -142,3 +142,8 @@
         flex-direction: column;
     }
 }
+@media (max-width: 400px){
+    .abouttitle {
+        font-size: 45px;
+    }
+}

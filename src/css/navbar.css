@@ -76,3 +76,8 @@
     flex: 1;
     height: 50px;
 }
+@media (max-width: 650px){
+    .aboutsh, .contactsh, .projectssh {
+        display: none;
+    }
+}

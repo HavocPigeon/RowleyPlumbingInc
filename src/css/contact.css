@@ -1,5 +1,5 @@
 .contactmain {
-    min-height: 355px;
+    height: 355px;
     color: black;
     width: 100%;
     background-image: linear-gradient(to top left,  rgb(138, 41, 41), rgb(66, 20, 20));
@@ -69,4 +69,50 @@ p {
     font-style: italic;
     font-weight: 500;
     color: rgb(138, 118, 118);
+}
+@media (max-width: 1050px){
+    .indvcontacts {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactmain {
+        height: 400px;
+    }
+    .contactbox {
+        height: 300px;
+    }
+}
+@media (max-width: 600px){
+    .contactinfoc, .contactinfow {
+        flex-direction: column;
+    }
+    .contactmain {
+        height: 500px;
+    }
+    .contactbox {
+        height: 350px;
+    }
+}
+@media (max-width: 410px) {
+    .contacttitle {
+        font-size: 45px;
+    }
+    .contactnames {
+        font-size: 25px;
+    }
+    .emails {
+        font-size: 20px;
+    }
+}
+@media (max-width: 375px){
+    .contactbox {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 350px){
+    .contacttitle {
+        font-size: 40px;
+    }
 }

@@ -8,6 +8,9 @@
     position: relative;
     border-radius: 8px;
 }
+.projectboxreversemain {
+    height: 460px;
+}
 .projectboxmain {
     background-image: linear-gradient(rgb(24, 23, 23) 7%, rgb(255, 255, 255), rgb(24, 23, 23));
 }
@@ -15,7 +18,7 @@
     background-image: linear-gradient(rgb(255, 255, 255) 10%, rgb(24, 23, 23));
 }
 .projectname {
-    font-size: 35px;
+    font-size: 30px;
     padding-top: 25px;
     color: rgb(255, 255, 255);
     padding-bottom: 10px;
@@ -27,7 +30,7 @@
     padding-bottom: 25px;
 }
 .projectimage {
-    height: 350px;
+    height: 355px;
     width: 100%;
 }
 img {
@@ -35,4 +38,38 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px;
+}
+@media (max-width: 1075px){
+    .projectboxmain {
+        margin-bottom: 125px;
+    }
+    .projectboxreversemain {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 500px){
+    .projectboxmain, .projectboxreversemain {
+        height: 475px;
+        width: 100vw;
+    }
+    .projectimage {
+        height: 370px;
+    }
+    .projectname {
+        font-size: 30px;
+    }
+}
+@media (max-width: 400px){
+    .projectboxmain, .projectboxreversemain {
+        height: 410px;
+    }
+    .projectimage {
+        height: 310px;
+    }
+    .projectname {
+        font-size: 25px;
+    }
+    .projecttitle {
+        font-size: 45px;
+    }
 }
