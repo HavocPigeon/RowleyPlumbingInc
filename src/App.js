@@ -14,6 +14,7 @@ class App extends Component {
     super();
     this.state = {
       scroll: 0,
+      bottomNavSticky: false,
     }
   }
   componentDidMount(){
@@ -29,7 +30,17 @@ class App extends Component {
     this.setState({
         scroll: window.scrollY
     })
+    const bottomNavLoc = document.getElementById("bottomnavbarcontainer");
+    const stickyLoc = bottomNavLoc.offsetTop - 155
+    if (this.state.scroll >= stickyLoc){
+      this.setState({
+        bottomNavSticky: true,
+      })
+    } else this.setState({
+      bottomNavSticky: false,
+    })
   }
+  
 
   render() {
     return (
@@ -37,7 +48,7 @@ class App extends Component {
           <Navbar scrollposition={this.state.scroll} />
           <Landingcover />
           <Landing />
-          <Bottomnavbar scrollposition={this.state.scroll} />
+          <Bottomnavbar stickyNav={this.state.bottomNavSticky} scrollposition={this.state.scroll} />
           <div className="sectiontwo">
             <Landingcovertwo />
             <About />

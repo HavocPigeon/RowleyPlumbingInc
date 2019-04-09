@@ -6,9 +6,29 @@
     height: 75px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.466);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.466));
+    -webkit-transition: background-image 2s ease-in-out;
+    transition: background-image 2s ease-in-out;
     display: flex;
     justify-content: space-around;
-    transition: 1s ease-in-out;
+    align-items: center;
+    color: rgb(65, 64, 64);
+    font-size: 35px;
+    font-family: 'Permanent Marker';
+    text-shadow: -3px 0 rgb(122, 122, 122), 0 3px rgb(122, 122, 122), 0 -3px rgb(122, 122, 122);
+}
+.bottomnavbarmainsticky {
+    position: fixed;
+    top: 80px;
+    height: 75px;
+    width: 100%;
+    z-index: 100;
+    -webkit-transition: background-image 2s ease-in-out;
+    transition: background-image 2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.466);
+    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(0, 0, 0), rgb(39, 32, 32));
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     color: rgb(65, 64, 64);
     font-size: 35px;
@@ -25,30 +45,4 @@
     display: flex;
     flex-direction: column;
     color: rgb(255, 255, 255);
-}
-.bottomnavbarhidden {
-    position: absolute;
-    bottom: -125px;
-    left: 0;
-    right: 0;
-    height: 75px;
-    overflow: hidden;
-    transition: 0.5s ease-in-out;
-    width: 100%;
-    background-color: transparent;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: rgb(65, 64, 64);
-    font-size: 35px;
-    font-family: 'Permanent Marker';
-    text-shadow: -2px 0 rgb(102, 102, 102), 0 2px rgb(102, 102, 102), 0 -2px rgb(102, 102, 102);
-}
-@media (max-width: 610px){
-    .bottomnavbarmain {
-        display: none;
-    }
-    .bottomnavbarhidden {
-        display: none;
-    }
 }
