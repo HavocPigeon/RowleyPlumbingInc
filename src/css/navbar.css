@@ -76,8 +76,77 @@
     flex: 1;
     height: 50px;
 }
+.contactsh {
+    display: relative;
+}
+.hiddenmenubuttonsh {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    opacity: 1;
+    transition: 1s ease-in-out;
+}
+.hiddenmenubuttonh {
+    position: absolute;
+    top: 15px;
+    right: -15px;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+.completenavbar {
+    position: relative;
+}
+.hiddennavbarh {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.hiddennavbar {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.hiddenmenuimage {
+    height: 25px;
+    width: auto;
+    padding-top: 10px;
+}
+.abouthiddenmenuh, .projecthiddenmenuh, .contacthiddenmenuh {
+    background-image: linear-gradient(to bottom right, rgb(100, 100, 100), black);
+    text-shadow: -2px 0 rgb(31, 31, 31), 0 2px rgb(31, 31, 31), 0 -2px rgb(32, 32, 32);    
+    height: 0px;
+    width: 200px;
+    opacity: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid white;
+    color: rgb(209, 209, 209);
+    transition: 0.5s ease-in-out;
+}
+.abouthiddenmenu, .projecthiddenmenu, .contacthiddenmenu {
+    background-image: linear-gradient(to bottom right, rgb(71, 71, 71), black);
+    text-shadow: -2px 0 rgb(31, 31, 31), 0 2px rgb(31, 31, 31), 0 -2px rgb(32, 32, 32);    
+    height: 65px;
+    width: 200px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid white;
+    color: rgb(209, 209, 209);
+    transition: 0.5s ease-in-out;
+}
 @media (max-width: 650px){
     .aboutsh, .contactsh, .projectssh {
         display: none;
+    }
+    .hiddenmenubuttonsh {
+        display: block;
     }
 }

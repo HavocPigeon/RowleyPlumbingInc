@@ -60,6 +60,7 @@ button:focus, a:focus {
 }
 a {
 	text-decoration: none;
+	cursor: pointer;
 }
 .sectiontwo {
   position: relative;
