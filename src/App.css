@@ -48,6 +48,7 @@ table {
 }
 button {
 	cursor: pointer;
+	padding: 0px;
 }
 button:focus, a:focus {
 	outline: none;
