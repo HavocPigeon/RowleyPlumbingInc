@@ -13,7 +13,7 @@ export default class About extends Component {
             circleFive: 'inactive',
         }
     }
-
+    
     activateCircleOne = () => {
         this.setState({
             circleOne: 'active',
@@ -61,10 +61,22 @@ export default class About extends Component {
     }
     
     componentDidMount = () => {
-        setTimeout(() => {  
-            this.findNextActiveCircle();
-        }, 10000);
+        this.timeoutFunction();
     }
+
+
+    resetTimeoutFunction = () => {
+        clearTimeout(this.timer);
+        this.timeoutFunction();
+    }
+
+    timeoutFunction = () => {
+        this.timer = 
+            setTimeout(() => {
+                this.findNextActiveCircle();
+            }, 10000);
+    }
+
     findNextActiveCircle = () => {
         const currentActive = Object.keys(this.state).find(key => this.state[key] === 'active').match(/[A-Z][a-z]+/g)[0]
 
@@ -79,9 +91,8 @@ export default class About extends Component {
         } else if (currentActive === 'Five'){
             this.activateCircleOne();
         } else this.activateCircleOne();
-        setTimeout(() => {
-            this.findNextActiveCircle();
-        }, 10000);
+        
+        this.timeoutFunction();
 
     }
 
@@ -97,7 +108,10 @@ export default class About extends Component {
                 </div>
                 <div className="timelinecontainer">
                     <div className="timelineleft">
-                        <button onClick={() => this.activateCircleOne()}>
+                        <button onClick={() => {
+                        this.activateCircleOne()
+                        this.resetTimeoutFunction()
+                        }}>
                             <div id={
                                 this.state.circleOne === 'active' 
                                 ? 'circleactive'
@@ -109,7 +123,10 @@ export default class About extends Component {
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => this.activateCircleTwo()}>
+                        <button onClick={() => {
+                        this.activateCircleTwo()
+                        this.resetTimeoutFunction()
+                        }}>
                             <div id={
                             this.state.circleTwo === 'active' 
                             ? 'circleactive'
@@ -121,7 +138,10 @@ export default class About extends Component {
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => this.activateCircleThree()}>
+                        <button onClick={() => {
+                        this.activateCircleThree()
+                        this.resetTimeoutFunction()
+                        }}>
                             <div id={
                             this.state.circleThree === 'active' 
                             ? 'circleactive'
@@ -133,7 +153,10 @@ export default class About extends Component {
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => this.activateCircleFour()}>
+                        <button onClick={() => {
+                        this.activateCircleFour()
+                        this.resetTimeoutFunction()
+                        }}>
                         <div id={
                             this.state.circleFour === 'active' 
                             ? 'circleactive'
@@ -145,7 +168,10 @@ export default class About extends Component {
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => this.activateCircleFive()}>
+                        <button onClick={() => {
+                        this.activateCircleFive()
+                        this.resetTimeoutFunction()
+                        }}>
                             <div id={
                             this.state.circleFive === 'active' 
                             ? 'circleactive'
