@@ -5,6 +5,7 @@
     right: 0;
     height: 75px;
     width: 100%;
+    transition: background-color 3s ease-in-out;
     background-color: rgba(27, 27, 27, 0.616);
     display: flex;
     justify-content: space-around;
@@ -21,7 +22,7 @@
     height: 75px;
     width: 100%;
     z-index: 100;
-    transition: background-color 1s ease-in-out;
+    transition: background-color 3s ease-in-out;
     background-color: transparent;
     display: flex;
     justify-content: space-around;
