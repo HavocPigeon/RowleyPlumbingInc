@@ -1,5 +1,5 @@
 .navbarmainh {
-    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(0, 0, 0), rgb(39, 32, 32));
+    background-image: linear-gradient(to right, rgb(46, 46, 46), rgb(0, 0, 0), rgb(46, 46, 46));
     width: 100%;
     height: 75px;
     padding: 25px 0px;
@@ -19,7 +19,7 @@
     border-bottom-color: white;
 }
 .navbarmainsh {
-    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(0, 0, 0), rgb(39, 32, 32));
+    background-image: linear-gradient(to right, rgb(46, 46, 46), rgb(0, 0, 0), rgb(46, 46, 46));
     padding: 0px 0px;
     transition: padding 1s ease-in-out, border-bottom-color 1.5s ease-in-out;
     text-shadow: -2px 0 rgb(107, 107, 107), 0 2px rgb(107, 107, 107), 0 -2px rgb(107, 107, 107);

@@ -62,8 +62,3 @@ class App extends Component {
 
 export default App;
 
-/* to do:
-contact box shadow in contact.js 
-about section content needs refining
-bottomnav transition flash needs fixing 
-*/

@@ -5,7 +5,6 @@
     right: 0;
     height: 75px;
     width: 100%;
-    transition: background-color 3s ease-in-out;
     background-color: rgba(27, 27, 27, 0.616);
     display: flex;
     justify-content: space-around;
@@ -22,7 +21,7 @@
     height: 75px;
     width: 100%;
     z-index: 100;
-    transition: background-color 3s ease-in-out;
+    transition: text-shadow 0.7s ease-in-out, background-color 3s ease-in-out;    
     background-color: transparent;
     display: flex;
     justify-content: space-around;
@@ -30,7 +29,6 @@
     color: rgb(65, 64, 64);
     font-size: 35px;
     font-family: 'Permanent Marker';
-    transition: text-shadow 0.7s ease-in-out;
     text-shadow: -3px 0 rgb(73, 73, 73), -3px 0 rgb(73, 73, 73);
 }
 .icons {
@@ -52,7 +50,7 @@
     position: absolute;
     height: 75px;
     width: 100%;
-    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(0, 0, 0), rgb(39, 32, 32));
+    background-image: radial-gradient(circle at 50% -200px, rgb(0, 0, 0) 0%, rgb(46, 46, 46));
     opacity: 0;
     transition: 0.5s ease-in-out;
     z-index: -1;
@@ -61,7 +59,7 @@
     position: absolute;
     height: 75px;
     width: 100%;
-    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(0, 0, 0), rgb(39, 32, 32));
+    background-image: radial-gradient(circle at 50% -200px, rgb(0, 0, 0) 0%, rgb(46, 46, 46));
     opacity: 1;
     transition: 0.5s ease-in-out;
     z-index: -1;

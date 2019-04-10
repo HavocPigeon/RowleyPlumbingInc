@@ -2,7 +2,7 @@
     height: 355px;
     color: black;
     width: 100%;
-    background-image: linear-gradient(to bottom right,  rgb(68, 68, 68) 20%, rgb(175, 175, 175) 90%);
+    background-image: linear-gradient(to top left,  rgb(119, 119, 119), rgb(45, 45, 45));
     position: relative;
 }
 .contactbox {
@@ -22,7 +22,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    box-shadow: 7px 8px #0806066e;
+    box-shadow: 7px 8px 5px #0505055d;
     text-align: center;
 }
 .contactnames {
