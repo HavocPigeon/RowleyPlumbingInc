@@ -174,27 +174,29 @@ export default class About extends Component {
                             this.state.circleOne === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>1</p>
+                        }>Rowley Plumbing was formed after E.T. Maynard, a former plumbing company owner, realized he was dying of cancer and entrusted an employee, Ken Rowley, with his company’s current contracts and sold Ken his equipment.</p>
                         <p className={
                             this.state.circleTwo === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>2</p>
+                        }>Rowley Plumbing did jobs like banks, grocery stores, medical and rehab offices, RhodesJunior High, Dobson High School and various office buildings while getting our feet wet. We’ve done several single family homes but found that we prefer commercial projects.</p>
                         <p className={
                             this.state.circleThree === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>3</p>
+                        }>We have taken on some unusual projects like a college, dorms at ASU, 14 story luxury condos, large department stores and even a professional baseball field facility.</p>
                         <p className={
                             this.state.circleFour === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>4</p>
+                        }>Most recently we have been doing retirement housing and hotels.
+                        </p>
                         <p className={
                             this.state.circleFive === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>5</p>
+                        }>We may be different from other companies because we do not take on more work than we are certain we can accomplish during the allotted time.
+                        </p>
                     </div>
                     
                 </div>

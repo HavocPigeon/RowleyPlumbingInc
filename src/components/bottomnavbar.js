@@ -28,6 +28,11 @@ export default class Bottomnavbar extends Component {
                             Contact
                         </div>
                     </a>
+                    <div className={
+                    this.props.stickyNav === false
+                    ? 'transitionnavbarhidden'
+                    : 'transitionnavbar'
+                }></div>
                 </div>
             </div>
         );

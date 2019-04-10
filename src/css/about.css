@@ -1,6 +1,6 @@
 .aboutmain {
     min-height: 100vh;
-    background-image: linear-gradient(to top left,  rgb(151, 27, 27), rgb(66, 20, 20));
+    background-image: linear-gradient(to top left,  rgb(207, 3, 3) 5%, rgb(66, 20, 20));
     color: white;
     background-color: transparent;
     position: absolute;
@@ -91,6 +91,7 @@
     align-items: center;
     transition: 2.0s ease-in-out;
     opacity: 1;
+    padding-right: 50px;
 }
 .abouttexthidden {
     position: absolute;
@@ -103,6 +104,7 @@
     align-items: center;
     transition: 0.5s ease-in-out;
     opacity: 0;
+    padding-right: 50px;
 }
 @keyframes circle {
     0% {
@@ -140,6 +142,9 @@
 @media (max-width: 750px){
     .timelinecontainer {
         flex-direction: column;
+    }
+    .abouttexthidden, .abouttextshown {
+        padding: 0 35px;
     }
 }
 @media (max-width: 400px){

@@ -14,7 +14,9 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <div className={
+            <div onClick={
+                () => this.scrollToTop()
+            } className={
                 this.props.scrollposition <= 0
                 ? "navbarmainh"
                 : "navbarmainsh"
@@ -23,9 +25,7 @@ export default class Navbar extends Component {
                     this.props.scrollposition <= 0
                     ? 'logoh'
                     : 'logosh'    
-                }><img onClick={
-                    () => this.scrollToTop()
-                } className={
+                }><img className={
                     this.props.scrollposition <= 0
                     ? 'rowleylogo'
                     : 'rowleylogosmall'

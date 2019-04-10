@@ -5,10 +5,7 @@
     right: 0;
     height: 75px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.466);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.466));
-    -webkit-transition: background-image 2s ease-in-out;
-    transition: background-image 2s ease-in-out;
+    background-color: rgba(27, 27, 27, 0.616);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,10 +20,8 @@
     height: 75px;
     width: 100%;
     z-index: 100;
-    -webkit-transition: background-image 2s ease-in-out;
-    transition: background-image 2s ease-in-out;
-    background-color: rgba(0, 0, 0, 0.466);
-    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(0, 0, 0), rgb(39, 32, 32));
+    transition: background-color 1s ease-in-out;
+    background-color: transparent;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,4 +40,31 @@
     display: flex;
     flex-direction: column;
     color: rgb(255, 255, 255);
+    z-index: 99;
+}
+#bottomnavbarcontainer {
+    position: relative;
+}
+.transitionnavbarhidden {
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(0, 0, 0), rgb(39, 32, 32));
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+}
+.transitionnavbar {
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(0, 0, 0), rgb(39, 32, 32));
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+}
+@media (max-width: 575px){
+    .bottomnavbarmain, .bottomnavbarmainsticky {
+        font-size: 25px;
+    }
 }
