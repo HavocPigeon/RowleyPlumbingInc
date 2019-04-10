@@ -21,9 +21,8 @@
     padding-top: 25px;
     color: rgb(255, 255, 255);
     padding-bottom: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-style: italic;
-    font-weight: 900;
 }
 .projectaddress {
     padding-bottom: 25px;
@@ -37,8 +36,6 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
 }
 @media (max-width: 1075px){
     .projectboxmain {

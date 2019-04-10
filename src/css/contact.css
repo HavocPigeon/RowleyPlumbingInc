@@ -2,15 +2,15 @@
     height: 355px;
     color: black;
     width: 100%;
-    background-image: linear-gradient(to top left,  rgb(138, 41, 41), rgb(66, 20, 20));
+    background-image: linear-gradient(to bottom right,  rgb(68, 68, 68) 20%, rgb(175, 175, 175) 90%);
     position: relative;
 }
 .contactbox {
     height: 250px;
     width: calc(100% - 100px);
-    border: solid 5px rgb(109, 27, 27);
-    background-image: linear-gradient(to bottom left, rgb(170, 48, 48), rgb(211, 52, 52));
-    color: rgb(231, 209, 209);
+    border: solid 5px rgb(36, 36, 36);
+    background-image: linear-gradient(to top right rgb(70, 70, 70), rgb(145, 145, 145));
+    color: rgb(48, 48, 48);
     font-style: italic;
     font-family: 'Roboto';
     font-size: 50px;
@@ -68,7 +68,7 @@ p {
     right: 15px;
     font-style: italic;
     font-weight: 500;
-    color: rgb(138, 118, 118);
+    color: rgb(105, 100, 100);
 }
 @media (max-width: 1050px){
     .indvcontacts {
