@@ -89,9 +89,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 2.0s ease-in-out;
+    transition: opacity 2.0s ease-in-out;
+    transition-delay: 0.5s;
     opacity: 1;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 .abouttexthidden {
     position: absolute;
@@ -104,7 +105,7 @@
     align-items: center;
     transition: 0.5s ease-in-out;
     opacity: 0;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 @keyframes circle {
     0% {
