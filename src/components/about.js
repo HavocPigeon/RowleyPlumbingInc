@@ -174,28 +174,28 @@ export default class About extends Component {
                             this.state.circleOne === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>Rowley Plumbing was formed after E.T. Maynard, a former plumbing company owner, realized he was dying of cancer and entrusted an employee, Ken Rowley, with his company’s current contracts and sold Ken his equipment.</p>
+                        }>Rowley Plumbing was established in 1973 by Ken Rowley. He inherited all of the early contracts and equipment from his former employer E.T. Maynard learned that he was dying of cancer.</p>
                         <p className={
                             this.state.circleTwo === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>Rowley Plumbing did jobs like banks, grocery stores, medical and rehab offices, RhodesJunior High, Dobson High School and various office buildings while getting our feet wet. We’ve done several single family homes but found that we prefer commercial projects.</p>
+                        }>The early days of the company included doing a variety of different types of jobs including banks, grocery stores, medical and rehab offices, several high schools, and even a few single family homes. It was during these years that the company found a preference for commercial projects.</p>
                         <p className={
                             this.state.circleThree === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>We have taken on some unusual projects like a college, dorms at ASU, 14 story luxury condos, large department stores and even a professional baseball field facility.</p>
+                        }>Since those days, Rowley plumbing has taken on projects of all kinds throughout the Phoenix valley including a college, ASU dorms, high-rise condos, hotels, large department stores, and even a baseball stadium.</p>
                         <p className={
                             this.state.circleFour === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>Most recently we have been doing retirement housing and hotels.
+                        }>In 2010 Ken Rowley's son Clint and son-in-law Wayne took over ownership and began running the company.
                         </p>
                         <p className={
                             this.state.circleFive === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>We may be different from other companies because we do not take on more work than we are certain we can accomplish during the allotted time.
+                        }>As of today, Rowley Plumbing has completed over 150 major projects. The most recent job of which is the Home2 Suites hotel located in Gilbert, Arizona. 
                         </p>
                     </div>
                     
