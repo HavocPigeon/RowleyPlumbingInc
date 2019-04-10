@@ -22,9 +22,6 @@ export default class About extends Component {
             circleFour: 'inactive',
             circleFive: 'inactive',
         })
-        setTimeout(() => {
-            // this.activateCircleTwo();
-        }, 10000);
     }
     activateCircleTwo = () => {
         this.setState({
@@ -34,9 +31,6 @@ export default class About extends Component {
             circleFour: 'inactive',
             circleFive: 'inactive',
         })
-        setTimeout(() => {
-            // this.activateCircleThree();
-        }, 10000);
     }
     activateCircleThree = () => {
         this.setState({
@@ -46,9 +40,6 @@ export default class About extends Component {
             circleFour: 'inactive',
             circleFive: 'inactive',
         })
-        setTimeout(() => {
-            // this.activateCircleFour();
-        }, 10000);
     }
     activateCircleFour = () => {
         this.setState({
@@ -58,9 +49,6 @@ export default class About extends Component {
             circleFour: 'active',
             circleFive: 'inactive',
         })
-        setTimeout(() => {
-            // this.activateCircleFive();
-        }, 10000);
     }
     activateCircleFive = () => {
         this.setState({
@@ -70,9 +58,6 @@ export default class About extends Component {
             circleFour: 'inactive',
             circleFive: 'active',
         })
-        setTimeout(() => {
-            // this.activateCircleOne();
-        }, 10000);
     }
     
     componentDidMount = () => {
