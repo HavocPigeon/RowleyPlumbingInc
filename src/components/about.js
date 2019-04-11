@@ -200,13 +200,13 @@ export default class About extends Component {
                             this.state.circleFour === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>In 2010 Ken Rowley's son Clint and son-in-law Wayne took over ownership and began running the company. Since then the company has completed over 20 major projects.
+                        }>In 2010 Ken Rowley's son Clint and son-in-law Wayne took over ownership and began running the company.
                         </p>
                         <p className={
                             this.state.circleFive === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>As of today, Rowley Plumbing has completed over 150 major projects. The most recent job of which is the Home2 Suites hotel located in Gilbert, Arizona. 
+                        }>As of today, Rowley Plumbing has completed over 250 major projects. The most recent job of which is the Home2 Suites hotel located in Gilbert, Arizona. 
                         </p>
                     </div>
                     
