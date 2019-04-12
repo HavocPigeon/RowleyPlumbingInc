@@ -15,10 +15,17 @@ class App extends Component {
     this.state = {
       scroll: 0,
       bottomNavSticky: false,
+      currentTime: 0,
     }
   }
+
   componentDidMount(){
     window.addEventListener('scroll', this.handleScroll)
+    const today = new Date();
+    const time = today.getHours();
+    this.setState({
+      currentTime: time,
+    })
   }
 
   //scroll y position
@@ -43,10 +50,11 @@ class App extends Component {
   
 
   render() {
+    console.log(this.state.currentTime);
     return (
       <div className="App">
           <Navbar scrollposition={this.state.scroll} />
-          <Landingcover />
+          <Landingcover currentTime={this.state.currentTime}/>
           <Landing />
           <Bottomnavbar stickyNav={this.state.bottomNavSticky} scrollposition={this.state.scroll} />
           <div className="sectiontwo">
