@@ -62,6 +62,9 @@
     .projecttitle {
         padding-top: 150px;
     }
+    #projects {
+        top: 275px;
+    }
 }
 @media (max-width: 580px){
     .projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
