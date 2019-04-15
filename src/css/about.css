@@ -28,6 +28,7 @@
 }
 .timelinecontainer {
     display: flex;
+    position: relative;
 }
 .timelineleft {
     flex: 1;

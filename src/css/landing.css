@@ -84,4 +84,22 @@
         padding-left: 0px;
     }
 }
-
+@media (max-width: 355px){
+    .rpititle {
+        font-size: 100px;
+        padding-left: 0px;
+    }
+    .plumbinginc {
+        font-size: 20px;
+    }
+    .established {
+        text-shadow: none;
+    }
+    .primarytitle {
+        left: 15px;
+    }
+    .secondarytitle {
+        left: 20px;
+        top: 30px;
+    }
+}

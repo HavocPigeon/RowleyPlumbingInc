@@ -190,7 +190,7 @@ export default class About extends Component {
                             this.state.circleTwo === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>The early days of the company included variety of different types of projects including banks, grocery stores, medical and rehab offices, numerous apartment projects, a high school, and a junior high. It was during these years that the company found a preference for commercial projects.</p>
+                        }>The early days of the company included a variety of different types of projects including banks, grocery stores, medical and rehab offices, numerous apartment projects, a high school, and a junior high. It was during these years that the company found a preference for commercial projects.</p>
                         <p className={
                             this.state.circleThree === 'active' 
                             ? 'abouttextshown'
