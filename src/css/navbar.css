@@ -17,6 +17,7 @@
     font-size: 30px;
     font-family: 'Permanent Marker';    border-bottom: solid 5px;
     border-bottom-color: white;
+    z-index: 100;
 }
 .navbarmainsh {
     background-image: linear-gradient(to right, rgb(46, 46, 46), rgb(0, 0, 0), rgb(46, 46, 46));

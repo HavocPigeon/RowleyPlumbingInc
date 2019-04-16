@@ -108,7 +108,7 @@ export default class About extends Component {
                 </div>
                 <div className="timelinecontainer">
                     <div className="timelineleft">
-                        <button onClick={() => {
+                        <button className='circlecont' onClick={() => {
                         this.activateCircleOne()
                         this.resetTimeoutFunction()
                         }}>
@@ -123,7 +123,7 @@ export default class About extends Component {
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => {
+                        <button className='circlecont' onClick={() => {
                         this.activateCircleTwo()
                         this.resetTimeoutFunction()
                         }}>
@@ -138,7 +138,7 @@ export default class About extends Component {
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => {
+                        <button className='circlecont' onClick={() => {
                         this.activateCircleThree()
                         this.resetTimeoutFunction()
                         }}>
@@ -153,7 +153,7 @@ export default class About extends Component {
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => {
+                        <button className='circlecont' onClick={() => {
                         this.activateCircleFour()
                         this.resetTimeoutFunction()
                         }}>
@@ -168,7 +168,7 @@ export default class About extends Component {
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button onClick={() => {
+                        <button className='circlecont' onClick={() => {
                         this.activateCircleFive()
                         this.resetTimeoutFunction()
                         }}>
