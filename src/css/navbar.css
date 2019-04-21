@@ -16,7 +16,7 @@
     align-items: center;
     font-size: 30px;
     font-family: 'Permanent Marker';    border-bottom: solid 5px;
-    border-bottom-color: white;
+    border-bottom-color: rgb(97, 97, 97);
     z-index: 100;
 }
 .navbarmainsh {
