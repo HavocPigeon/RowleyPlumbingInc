@@ -1,5 +1,5 @@
 .aboutmain {
-    min-height: 100vh;
+    max-height: 100vh;
     background-image: linear-gradient(to top left,  rgb(207, 3, 3) 5%, rgb(66, 20, 20));
     color: white;
     background-color: transparent;
@@ -118,14 +118,14 @@
 }
 @keyframes circle {
     0% {
-        width: 10px;
-        height: 10px;
+        width: 13px;
+        height: 14px;
         border-radius: 50%;
         background-color: white;
     }
     50% {
         width: 45px;
-        height: 45px;
+        height: 50px;
         border-radius: 50%;
         background-color: rgb(112, 112, 112);
         border: 2px solid rgb(39, 39, 39);
@@ -133,8 +133,8 @@
 }
 @keyframes reversecircle {
     0%{
-        width: 35px;
-        height: 35px;
+        width: 39px;
+        height: 40px;
         border-radius: 50%;
         background-color: rgb(112, 112, 112);
         animation-name: circle;
@@ -143,7 +143,7 @@
     }
     50%{
         width: 45px;
-        height: 45px;
+        height: 50px;
         border-radius: 50%;
         background-color: rgb(112, 112, 112);
         border: 2px solid rgb(39, 39, 39);
@@ -153,8 +153,36 @@
     .timelinecontainer {
         flex-direction: column;
     }
+    .timelineleft {
+        flex-direction: row;
+        height: 200px;
+    }
+    .timelineright {
+        height: 200px;
+        padding-bottom: 125px;
+        padding-top: 25px;
+    }
+    #timelinelength, #timelinelengthactive {
+        height: 5px; 
+        width: 100px;
+        margin: 0 5px;
+    }
     .abouttexthidden, .abouttextshown {
-        padding: 0 35px;
+        padding: 0px 35px;
+    }
+}
+@media (max-width: 560px){
+    #timelinelength, #timelinelengthactive {
+        width: 75px;
+    }
+    #circleactive {
+        width: 30px;
+        height: 31px;
+    }
+}
+@media (max-width: 465px){
+    #timelinelength, #timelinelengthactive {
+        width: 50px;
     }
 }
 @media (max-width: 400px){
