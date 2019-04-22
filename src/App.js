@@ -9,6 +9,8 @@ import Landingcover from './components/landingcover.js';
 import Landingcovertwo from './components/landingcovertwo.js';
 import Bottomnavbar from './components/bottomnavbar.js';
 
+/* in safari: smooth scrolling, timeling circles */
+
 class App extends Component {
   constructor(){
     super();

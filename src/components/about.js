@@ -200,7 +200,7 @@ export default class About extends Component {
                             this.state.circleFour === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
-                        }>In 2017 Ken Rowley's son Clint and son-in-law Wayne took over ownership and began running the company.
+                        }>In 2017 Ken Rowley's son Clint and son-in-law Wayne, who were both long-time employees of the company, took over ownership and began running the company.
                         </p>
                         <p className={
                             this.state.circleFive === 'active' 
