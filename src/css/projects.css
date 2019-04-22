@@ -65,6 +65,9 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+    .projectsmain {
+        padding-top: 700px;
+    }
 }
 @media (max-width: 500px){
     .projectboxblockone {
