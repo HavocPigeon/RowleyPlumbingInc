@@ -108,76 +108,76 @@ export default class About extends Component {
                 </div>
                 <div className="timelinecontainer">
                     <div className="timelineleft">
-                        <button className='circlecont' onClick={() => {
-                        this.activateCircleOne()
-                        this.resetTimeoutFunction()
-                        }}>
-                            <div id={
-                                this.state.circleOne === 'active' 
-                                ? 'circleactive'
-                                : 'circle'
-                            }></div>
-                        </button>
+
+                        <div onClick={() => {
+                            this.activateCircleOne()
+                            this.resetTimeoutFunction()
+                            }} id={
+                                    this.state.circleOne === 'active' 
+                                    ? 'circleactive'
+                                    : 'circle'
+                                }>
+                        </div>
                         <div id={
                             this.state.circleOne === 'inactive' 
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button className='circlecont' onClick={() => {
-                        this.activateCircleTwo()
-                        this.resetTimeoutFunction()
-                        }}>
-                            <div id={
-                            this.state.circleTwo === 'active' 
-                            ? 'circleactive'
-                            : 'circle'
-                            }></div>
-                        </button>
+
+                        <div onClick={() => {
+                            this.activateCircleTwo()
+                            this.resetTimeoutFunction()
+                            }} id={
+                                this.state.circleTwo === 'active' 
+                                ? 'circleactive'
+                                : 'circle'
+                                }>
+                        </div>
                         <div id={
                             this.state.circleTwo === 'inactive' && this.state.circleOne === 'inactive'
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button className='circlecont' onClick={() => {
-                        this.activateCircleThree()
-                        this.resetTimeoutFunction()
-                        }}>
-                            <div id={
-                            this.state.circleThree === 'active' 
-                            ? 'circleactive'
-                            : 'circle'
-                            }></div>
-                        </button>
+
+                        <div onClick={() => {
+                            this.activateCircleThree()
+                            this.resetTimeoutFunction()
+                            }} id={
+                                this.state.circleThree === 'active' 
+                                ? 'circleactive'
+                                : 'circle'
+                                }>
+                        </div>
                         <div id={
                             this.state.circleFour === 'active' || this.state.circleFive === 'active'
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button className='circlecont' onClick={() => {
-                        this.activateCircleFour()
-                        this.resetTimeoutFunction()
-                        }}>
-                        <div id={
-                            this.state.circleFour === 'active' 
-                            ? 'circleactive'
-                            : 'circle'
-                            }></div>
-                        </button>
+
+                        <div onClick={() => {
+                            this.activateCircleFour()
+                            this.resetTimeoutFunction()
+                            }} id={
+                                this.state.circleFour === 'active' 
+                                ? 'circleactive'
+                                : 'circle'
+                                }>
+                            </div>
                         <div id={
                             this.state.circleFive === 'active' 
                             ? 'timelinelengthactive'
                             : 'timelinelength'
                         }></div>
-                        <button className='circlecont' onClick={() => {
-                        this.activateCircleFive()
-                        this.resetTimeoutFunction()
-                        }}>
-                            <div id={
-                            this.state.circleFive === 'active' 
-                            ? 'circleactive'
-                            : 'circle'
-                            }></div>
-                        </button>
+
+                        <div onClick={() => {
+                            this.activateCircleFive()
+                            this.resetTimeoutFunction()
+                            }} id={
+                                this.state.circleFive === 'active' 
+                                ? 'circleactive'
+                                : 'circle'
+                                }>
+                        </div>
                     </div>
 
                     <div className="timelineright">

@@ -52,7 +52,6 @@ class App extends Component {
   
 
   render() {
-    console.log(this.state.currentTime);
     return (
       <div className="App">
           <Navbar scrollposition={this.state.scroll} />

@@ -43,6 +43,9 @@
     color: rgb(255, 255, 255);
     z-index: 99;
 }
+.abouttag:hover, .projectstag:hover, .contacttag:hover {
+    color: rgb(196, 196, 196);
+}
 #bottomnavbarcontainer {
     position: relative;
 }
