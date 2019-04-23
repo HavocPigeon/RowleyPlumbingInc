@@ -56,17 +56,11 @@
     #projects {
         top: 450px;
     }
-    .projectsmain {
-        padding-top: 500px;
-    }
 }
 @media (max-width: 580px){
     .projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
         padding-left: 0px;
         padding-right: 0px;
-    }
-    .projectsmain {
-        padding-top: 700px;
     }
 }
 @media (max-width: 500px){
