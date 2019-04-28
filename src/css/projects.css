@@ -52,6 +52,11 @@
         padding-bottom: 150px;
     }
 }
+@media (max-width: 750px){
+    #projects {
+        top: -150px;
+    }
+}
 @media (max-width: 580px){
     .projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
         padding-left: 0px;
