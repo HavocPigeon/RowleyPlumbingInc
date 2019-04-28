@@ -40,7 +40,7 @@ class App extends Component {
         scroll: window.scrollY
     })
     const bottomNavLoc = document.getElementById("bottomnavbarcontainer");
-    const stickyLoc = bottomNavLoc.offsetTop - 155
+    const stickyLoc = bottomNavLoc.offsetTop - 150
     if (this.state.scroll >= stickyLoc){
       this.setState({
         bottomNavSticky: true,

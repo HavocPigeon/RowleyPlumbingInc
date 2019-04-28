@@ -202,13 +202,13 @@ export default class About extends Component {
                     <div className="timelineright">
                         <p className={
                             this.state.circleTwo === 'active' 
-                            ? 'abouttextshown'
-                            : 'abouttexthidden'
+                            ? 'abouttextshown extratop'
+                            : 'abouttexthidden extratop'
                         }>The early days of the company included a variety of different types of projects including banks, grocery stores, medical and rehab offices, numerous apartment projects, a high school, and a junior high.</p>
                         <p className={
                             this.state.circleFour === 'active' 
-                            ? 'abouttextshown'
-                            : 'abouttexthidden'
+                            ? 'abouttextshown extrabottom'
+                            : 'abouttexthidden extrabottom'
                         }>In 2017 Ken Rowley's son Clint and son-in-law Wayne, who were both long-time employees of the company, took over ownership and began running operations.
                         </p>
                     </div>

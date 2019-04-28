@@ -1,5 +1,5 @@
 .aboutmain {
-    min-height: 110vh;
+    height: 110vh;
     background-image: linear-gradient(to top left,  rgb(207, 3, 3) 5%, rgb(66, 20, 20));
     color: white;
     background-color: transparent;
@@ -121,6 +121,12 @@
     transition: 0.5s ease-in-out;
     opacity: 0;
 }
+.extrabottom {
+    padding-bottom: 15px;
+}
+.extratop {
+    padding-top: 15px;
+}
 @keyframes circle {
     0% {
         width: 13px;
@@ -154,10 +160,20 @@
     .abouttexthidden, .abouttextshown {
         font-size: 20px;
     }
+    .extrabottom {
+        padding-bottom: 25px;
+        padding-top: 30px;
+    }
 }
 @media (max-width: 560px){
     .abouttexthidden, .abouttextshown {
         font-size: 16px;
+    }
+    .extrabottom {
+        padding-bottom: 35px;
+    }
+    .extratop {
+        padding-top: 35px;
     }
 }
 @media (max-width: 450px){
