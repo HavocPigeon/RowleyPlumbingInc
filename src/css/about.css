@@ -164,6 +164,9 @@
         padding-bottom: 25px;
         padding-top: 30px;
     }
+    .aboutmain {
+        height: 120vh;
+    }
 }
 @media (max-width: 560px){
     .abouttexthidden, .abouttextshown {
