@@ -42,11 +42,16 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
     z-index: -98;
+}
+@media (max-width: 750px){
+    .landingcovertwomain {
+        height: 100vh;
+    }
 }

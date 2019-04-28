@@ -1,5 +1,5 @@
 .projectsmain {
-    padding-top: 200px;
+    padding-top: 100px;
     min-height: calc(100vh - 75px);
     background-color: transparent;
     color: rgb(73, 72, 72);
@@ -8,7 +8,7 @@
 }
 #projects {
     position: absolute;
-    top: -80px;
+    top: -154px;
 }
 .projecttitle {
     font-size: 50px;
@@ -55,9 +55,6 @@
 @media (max-width: 750px){
     #projects {
         top: 450px;
-    }
-    .projectsmain {
-        padding-top: 325px;
     }
 }
 @media (max-width: 580px){

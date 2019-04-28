@@ -1,5 +1,5 @@
 .aboutmain {
-    min-height: 100vh;
+    min-height: 110vh;
     background-image: linear-gradient(to top left,  rgb(207, 3, 3) 5%, rgb(66, 20, 20));
     color: white;
     background-color: transparent;
@@ -7,12 +7,11 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding-bottom: 100px;
 }
 #about {
     width: 100%;
     position: absolute;
-    top: -80px;
+    top: -154px;
 }
 .abouttitle {
     font-size: 50px;
@@ -147,17 +146,20 @@
     }
 }
 @media (max-width: 750px){
+    .aboutmain {
+        min-height: 100vh;
+    }
     .timelinecontainer {
         flex-direction: column;
     }
     .timelineleft {
         flex-direction: row;
-        height: 200px;
+        height: 100px;
     }
     .timelineright {
-        height: 200px;
+        height: 150px;
         padding-bottom: 125px;
-        padding-top: 25px;
+        padding-top: 100px;
     }
     #timelinelength, #timelinelengthactive {
         height: 5px; 
