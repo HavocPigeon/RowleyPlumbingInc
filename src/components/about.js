@@ -108,6 +108,24 @@ export default class About extends Component {
                 </div>
                 <div className="timelinecontainer">
                     <div className="timelineleft">
+                            <p className={
+                                this.state.circleOne === 'active' 
+                                ? 'abouttextshown'
+                                : 'abouttexthidden'
+                            }>Rowley Plumbing was established in 1973 by Ken Rowley. He inherited all of the early contracts and equipment from his former employer E.T. Maynard.</p>
+                            <p className={
+                                this.state.circleThree === 'active' 
+                                ? 'abouttextshown'
+                                : 'abouttexthidden'
+                            }>Since those days, Rowley plumbing has taken on projects of all kinds throughout the Phoenix valley including ASU dorms, high-rise condos, hotels, large department stores, and even a baseball stadium.</p>
+                            <p className={
+                                this.state.circleFive === 'active' 
+                                ? 'abouttextshown'
+                                : 'abouttexthidden'
+                            }>As of today, Rowley Plumbing has completed over 250 major projects. The most recent of which is the Staybridge Suites in Gilbert, Arizona. 
+                            </p>
+                        </div>
+                    <div className="timelinecircles">
 
                         <div onClick={() => {
                             this.activateCircleOne()
@@ -180,33 +198,18 @@ export default class About extends Component {
                         </div>
                     </div>
 
+
                     <div className="timelineright">
-                        <p className={
-                            this.state.circleOne === 'active' 
-                            ? 'abouttextshown'
-                            : 'abouttexthidden'
-                        }>Rowley Plumbing was established in 1973 by Ken Rowley. He inherited all of the early contracts and equipment from his former employer E.T. Maynard.</p>
                         <p className={
                             this.state.circleTwo === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
                         }>The early days of the company included a variety of different types of projects including banks, grocery stores, medical and rehab offices, numerous apartment projects, a high school, and a junior high.</p>
                         <p className={
-                            this.state.circleThree === 'active' 
-                            ? 'abouttextshown'
-                            : 'abouttexthidden'
-                        }>Since those days, Rowley plumbing has taken on projects of all kinds throughout the Phoenix valley including ASU dorms, high-rise condos, hotels, large department stores, and even a baseball stadium.</p>
-                        <p className={
                             this.state.circleFour === 'active' 
                             ? 'abouttextshown'
                             : 'abouttexthidden'
                         }>In 2017 Ken Rowley's son Clint and son-in-law Wayne, who were both long-time employees of the company, took over ownership and began running operations.
-                        </p>
-                        <p className={
-                            this.state.circleFive === 'active' 
-                            ? 'abouttextshown'
-                            : 'abouttexthidden'
-                        }>As of today, Rowley Plumbing has completed over 250 major projects. The most recent of which is the Staybridge Suites in Gilbert, Arizona. 
                         </p>
                     </div>
                     

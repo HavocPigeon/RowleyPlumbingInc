@@ -33,21 +33,34 @@
     position: relative;
 }
 .timelineleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 550px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.timelineright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 550px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+.timelinecircles {
     flex: 1;
+    position: absolute;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     height: 500px;
-    width: 100%;
-}
-.timelineright {
-    flex: 1;
-    background-color: transparent;
-    border-radius: 3px;
-    height: 500px;
-    position: relative;
-    width: 100%;
+    width: 10%;
 }
 #timelinelength {
     width: 5px;
@@ -90,31 +103,23 @@
         border: 3.5px solid rgb(37, 37, 37);
 }
 .abouttextshown {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: opacity 2.0s ease-in-out;
     transition-delay: 0.5s;
     opacity: 1;
-    padding-right: 100px;
+    width: 100%;
 }
 .abouttexthidden {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     transition: 0.5s ease-in-out;
     opacity: 0;
-    padding-right: 100px;
 }
 @keyframes circle {
     0% {
@@ -146,83 +151,17 @@
     }
 }
 @media (max-width: 750px){
-    .aboutmain {
-        min-height: 100vh;
-    }
-    .timelinecontainer {
-        flex-direction: column;
-    }
-    .timelineleft {
-        flex-direction: row;
-        height: 100px;
-    }
-    .timelineright {
-        height: 150px;
-        padding-bottom: 125px;
-        padding-top: 100px;
-    }
-    #timelinelength, #timelinelengthactive {
-        height: 5px; 
-        width: 100px;
-        margin: 0 5px;
-    }
     .abouttexthidden, .abouttextshown {
-        padding: 0px 35px;
-    }
-    #circle {
-        width: 14px;
-        height: 14px;
-    }
-    #circleactive {
-        width: 40px;
-        height: 40px;
-    }
-    @keyframes circle {
-        0% {
-            width: 14px;
-            height: 14px;
-            background-color: white;
-        }
-        50% {
-            width: 50px;
-            height: 50px;
-            background-color: rgb(112, 112, 112);
-            border: 4px solid rgb(39, 39, 39);
-        }
-    }
-    @keyframes reversecircle {
-        0%{
-            width: 40px;
-            height: 40px;
-            background-color: rgb(112, 112, 112);
-            animation-name: circle;
-            animation-duration: 1s;
-            border: 4px solid rgb(37, 37, 37);
-        }
-        50%{
-            width: 50px;
-            height: 50px;
-            background-color: rgb(112, 112, 112);
-            border: 4px solid rgb(39, 39, 39);
-        }
+        font-size: 20px;
     }
 }
 @media (max-width: 560px){
-    #timelinelength, #timelinelengthactive {
-        width: 75px;
-    }
-    #circleactive {
-        width: 30px;
-        height: 31px;
+    .abouttexthidden, .abouttextshown {
+        font-size: 16px;
     }
 }
-@media (max-width: 465px){
-    #timelinelength, #timelinelengthactive {
-        width: 50px;
-    }
-}
-@media (max-width: 400px){
-    .abouttitle {
-        font-size: 45px;
+@media (max-width: 450px){
+    .abouttexthidden, .abouttextshown {
+        font-size: 14px;
     }
 }
