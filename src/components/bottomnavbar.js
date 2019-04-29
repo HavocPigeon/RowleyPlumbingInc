@@ -15,17 +15,17 @@ export default class Bottomnavbar extends Component {
                 }>
                     <a href="#about">
                         <div className="abouttag">
-                            About
+                            ABOUT
                         </div>
                     </a>
                     <a href="#projects">
                         <div className="projectstag">
-                            Projects
+                            PROJECTS
                         </div>
                     </a>
                     <a href="#contact">
                         <div className="contacttag">
-                            Contact
+                            CONTACT
                         </div>
                     </a>
                     <div className={

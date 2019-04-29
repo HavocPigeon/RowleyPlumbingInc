@@ -11,9 +11,9 @@
     align-items: center;
     color: rgb(65, 64, 64);
     font-size: 35px;
-    font-family: 'Permanent Marker';
+    font-family: 'Montserrat';
     transition: text-shadow 0.7s ease-in-out;
-    text-shadow: -3px 0 rgb(128, 128, 128), -3px 0 rgb(129, 129, 129);
+    font-style: italic;
 }
 .bottomnavbarmainsticky {
     position: fixed;
@@ -28,8 +28,8 @@
     align-items: center;
     color: rgb(65, 64, 64);
     font-size: 35px;
-    font-family: 'Permanent Marker';
-    text-shadow: -3px 0 rgb(73, 73, 73), -3px 0 rgb(73, 73, 73);
+    font-family: 'Montserrat';
+    font-style: italic;
 }
 .icons {
     height: 30px;
