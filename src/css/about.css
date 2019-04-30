@@ -87,9 +87,14 @@
     background-color: white;
     animation-name: reversecircle;
     animation-duration: 1s;
+    transition: 0.2s ease-in-out;
+    transition-property: width, height, background-color;
 }
 #circle:hover {
-    background-color: grey;
+    background-color: rgb(116, 116, 116);
+    width: 18px;
+    height: 18px;
+    transition: all 0.5s ease-in-out;
 }
 #circleactive {
         width: 40px;
@@ -122,7 +127,7 @@
     opacity: 0;
 }
 .extrabottom {
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 .extratop {
     padding-top: 15px;

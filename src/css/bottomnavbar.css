@@ -55,11 +55,11 @@
 }
 .abouttag:hover, .projectstag:hover, .contacttag:hover {
     color: rgb(122, 122, 122);
-    transform: scale(1.1);
+    transform: scale(1.1) skewX(-5deg) translateX(5px);
     transition: 0.3s ease-in-out;
 }
-.abouttagactive:hover, .projectstagactive:hover, .contacttag:hover {
-    transform: scale(1.1);
+.abouttagactive:hover, .projectstagactive:hover, .contacttagactive:hover {
+    transform: scale(1.1) skewX(-5deg) translateX(5px);
     transition: 0.3s ease-in-out;
 }
 #bottomnavbarcontainer {
