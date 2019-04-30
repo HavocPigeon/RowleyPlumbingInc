@@ -43,6 +43,7 @@
     color: rgb(255, 255, 255);
     z-index: 99;
     padding-left: 25px;
+    transition: 0.3s ease-in-out;
 }
 .abouttagactive, .projectstagactive, .contacttagactive {
     display: flex;
@@ -50,9 +51,16 @@
     color: rgb(255, 1, 1);
     z-index: 99;
     padding-left: 25px;
+    transition: 0.3s ease-in-out;
 }
 .abouttag:hover, .projectstag:hover, .contacttag:hover {
-    color: rgb(196, 196, 196);
+    color: rgb(122, 122, 122);
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.abouttagactive:hover, .projectstagactive:hover, .contacttag:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
 }
 #bottomnavbarcontainer {
     position: relative;
