@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import '../css/bottomnavbar.css';
 
 export default class Bottomnavbar extends Component {
-    touchStart = () => {
-        console.log('hello');
-    }
+    
     render() {
         return (
             <div id='bottomnavbarcontainer'>
