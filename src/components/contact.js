@@ -4,7 +4,7 @@ import rowleyOuthouse from '../Images/Rowley outhouse.png';
 
 const Contact = () => {
     return (
-        <div className="contactmain">
+        <div id="contactmain">
             <div id="contact"></div>
             <div className="contactbox">
                 <div className="outhouse">

@@ -17,6 +17,7 @@ class App extends Component {
       scroll: 0,
       bottomNavSticky: false,
       currentTime: 0,
+      activeSection: 0,
     }
   }
 
@@ -38,15 +39,51 @@ class App extends Component {
     this.setState({
         scroll: window.scrollY
     })
+    
+    //bottomNavOffset for bottomnav fixed pos
     const bottomNavLoc = document.getElementById("bottomnavbarcontainer");
     const stickyLoc = bottomNavLoc.offsetTop - 150
-    if (this.state.scroll >= stickyLoc){
+    //about.js offset for activenav
+    const landingHeight = stickyLoc + 75;
+    const aboutLoc = document.getElementById("aboutmain").offsetTop;
+    const aboutLocDoc = aboutLoc + stickyLoc;
+    //projects.js offset for activenav
+    const projectsLoc = document.getElementById("projectsmain").offsetTop - 76;
+    const projectsLocDoc = projectsLoc + landingHeight;
+    //contact.js offset for activenav 
+    const contactLoc = document.getElementById("contactmain").offsetTop - 75;
+    const contactLocDoc = contactLoc + landingHeight;
+    //landing.js height for activenav 
+    //if user scrolled to bottom
+    const totalViewport = document.body.clientHeight - window.innerHeight; 
+    const roundedScrollY = Math.floor(window.scrollY);
+    const scrollYInt = Math.floor(this.state.scroll) 
+    if (scrollYInt >= stickyLoc){
       this.setState({
         bottomNavSticky: true,
       })
     } else this.setState({
       bottomNavSticky: false,
     })
+
+
+    if (scrollYInt < aboutLocDoc){
+      this.setState({
+        activeSection: 0,
+      })
+    } else if (scrollYInt >= aboutLocDoc && scrollYInt < projectsLocDoc){
+      this.setState({
+        activeSection: 1,
+      })
+    } else if (scrollYInt > aboutLocDoc && scrollYInt >= projectsLocDoc && totalViewport !== roundedScrollY){
+      this.setState({
+        activeSection: 2,
+      }) 
+    } else if (totalViewport === roundedScrollY){
+      this.setState({
+        activeSection: 3,
+      })
+    }
   }
   
 
@@ -56,7 +93,7 @@ class App extends Component {
           <Navbar scrollposition={this.state.scroll} />
           <Landingcover currentTime={this.state.currentTime}/>
           <Landing />
-          <Bottomnavbar stickyNav={this.state.bottomNavSticky} scrollposition={this.state.scroll} />
+          <Bottomnavbar stickyNav={this.state.bottomNavSticky} scrollposition={this.state.scroll} activeSection={this.state.activeSection} />
           <div className="sectiontwo">
             <Landingcovertwo />
             <About />

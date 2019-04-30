@@ -12,17 +12,29 @@ export default class Bottomnavbar extends Component {
                     : 'bottomnavbarmainsticky'
                 }>
                     <a href="#about">
-                        <div className="abouttag">
+                        <div className={
+                            this.props.activeSection === 1 
+                            ? 'abouttagactive'
+                            : 'abouttag'
+                        }>
                             ABOUT
                         </div>
                     </a>
                     <a href="#projects">
-                        <div className="projectstag">
+                        <div className={
+                            this.props.activeSection === 2 
+                            ? 'projectstagactive'
+                            : 'projectstag'
+                        }>
                             PROJECTS
                         </div>
                     </a>
                     <a href="#contact">
-                        <div className="contacttag">
+                        <div className={
+                            this.props.activeSection === 3 
+                            ? 'contacttagactive'
+                            : 'contacttag'
+                        }>
                             CONTACT
                         </div>
                     </a>

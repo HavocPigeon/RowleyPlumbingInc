@@ -83,7 +83,7 @@ export default class Projects extends Component {
         ]
 
         return (
-            <div className="projectsmain">
+            <div id="projectsmain">
             <div id="projects"></div>
             <div className="projecttitle">
                 Past Projects
