@@ -87,11 +87,11 @@
     .bottomnavbarmain, .bottomnavbarmainsticky {
         font-size: 25px;
     }
-    .abouttag, .projectstag, .contacttag {
+    .abouttag, .projectstag, .contacttag, .abouttagactive, .projectstagactive, .contacttagactive {
         padding-left: 0px;
     }
 }
-@media (max-width: 355px){
+@media (max-width: 425px){
     .bottomnavbarmain, .bottomnavbarmainsticky {
         font-size: 20px;
     }

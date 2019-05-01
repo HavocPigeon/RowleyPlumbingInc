@@ -50,9 +50,6 @@ class App extends Component {
     //projects.js offset for activenav
     const projectsLoc = document.getElementById("projectsmain").offsetTop - 76;
     const projectsLocDoc = projectsLoc + landingHeight;
-    //contact.js offset for activenav 
-    const contactLoc = document.getElementById("contactmain").offsetTop - 75;
-    const contactLocDoc = contactLoc + landingHeight;
     //if user scrolled to bottom
     const totalViewport = document.body.clientHeight - window.innerHeight; 
     const roundedScrollY = Math.floor(window.scrollY);

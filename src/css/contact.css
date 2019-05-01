@@ -76,7 +76,7 @@ p {
         justify-content: center;
         align-items: center;
     }
-    .contactmain {
+    #contactmain {
         height: 400px;
     }
     .contactbox {
@@ -87,8 +87,8 @@ p {
     .contactinfoc, .contactinfow {
         flex-direction: column;
     }
-    .contactmain {
-        height: 500px;
+    #contactmain {
+        height: 450px;
     }
     .contactbox {
         height: 350px;
