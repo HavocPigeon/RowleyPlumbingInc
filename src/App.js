@@ -79,9 +79,6 @@ class App extends Component {
         activeSection: 3,
       })
     }
-    console.log(this.state.activeSection);
-    console.log(totalViewport);
-    console.log(roundedScrollY);
   }
   
 
