@@ -76,4 +76,12 @@
         max-height: 85px;
     }
 } 
+@media (max-width: 625px){
+    .navbarmainh {
+        padding: 10px 0;
+    }
+    .rowleylogo {
+        max-height: 85px;
+    }
+}
 

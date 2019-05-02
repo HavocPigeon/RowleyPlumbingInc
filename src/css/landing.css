@@ -59,6 +59,11 @@
         padding-top: 10px;
     }
 }
+@media (max-width: 625px){
+    #landingmain {
+        top: 110px;
+    }
+}
 @media(max-width: 610px){
     .rpititle {
         flex-direction: column;
