@@ -90,6 +90,9 @@
     .abouttag, .projectstag, .contacttag, .abouttagactive, .projectstagactive, .contacttagactive {
         padding-left: 0px;
     }
+    .abouttag:hover, .projectstag:hover, .contacttag:hover, .abouttagactive:hover, .projectstagactive:hover, .contacttagactive:hover {
+        transform: none;
+    }
 }
 @media (max-width: 425px){
     .bottomnavbarmain, .bottomnavbarmainsticky {
