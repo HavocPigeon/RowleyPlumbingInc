@@ -107,3 +107,27 @@
         top: 30px;
     }
 }
+@media (max-height: 625px){
+    .rpititle {
+        font-size: 100px;
+    }
+    .plumbinginc {
+        font-size: 20px;
+    }
+    .primarytitle {
+        position: absolute;
+        left: 15px;
+        top: 0;
+    }
+    .secondarytitle {
+        position: absolute;
+        left: 260px;
+        top: -15px;
+        flex-direction: row;
+    }
+    .established {
+        padding-right: 0px;
+        padding-top: 75px;
+        padding-left: 10px;
+    }
+}

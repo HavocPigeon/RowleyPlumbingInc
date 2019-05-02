@@ -189,3 +189,59 @@
         font-size: 14px;
     }
 }
+@media (max-height: 625px){
+    #aboutmain {
+        height: 130vh;
+    }
+}
+@media (max-height: 575px){
+    #aboutmain {
+        height: 140vh;
+    }
+}
+@media (max-height: 525px){
+    #aboutmain {
+        height: 150vh;
+    }
+}
+@media (max-height: 500px){
+    #aboutmain {
+        height: 160vh;
+    }
+}
+@media (max-height: 475px){
+    #aboutmain {
+        height: 170vh;
+    }
+}
+@media (max-height: 425px){
+    #aboutmain {
+        height: 180vh;
+    }
+}
+@media (max-height: 400px){
+    #aboutmain {
+        height: 190vh;
+    }
+}
+@media (max-height: 375px){
+    #aboutmain {
+        height: 200vh;
+    }
+}
+@media (max-height: 350px){
+    #aboutmain {
+        height: 210vh;
+    }
+}
+@media (max-height: 325px){
+    #aboutmain {
+        height: 220vh;
+    }
+}
+@media (max-height: 300px){
+    #aboutmain {
+        height: 230vh;
+    }
+}
+

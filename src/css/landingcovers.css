@@ -55,3 +55,72 @@
         height: 120vh;
     }
 }
+@media (max-height: 625px){
+    .landingcovertwomain {
+        height: 130vh;
+    }
+    .landingcovermain, .landingcovermainnight, .landingcovermainsunset {
+        height: 115vh;
+    }
+}
+@media (max-height: 575px){
+    .landingcovertwomain {
+        height: 140vh;
+    }
+}
+@media (max-height: 525px){
+    .landingcovertwomain {
+        height: 150vh;
+    }
+}
+@media (max-height: 500px){
+    .landingcovertwomain {
+        height: 160vh;
+    }
+}
+@media (max-height: 490px){
+    .landingcovermain, .landingcovermainnight, .landingcovermainsunset {
+        height: 130vh;
+    }
+}
+@media (max-height: 475px){
+    .landingcovertwomain {
+        height: 170vh;
+    }
+}
+@media (max-height: 425px){
+    .landingcovertwomain {
+        height: 180vh;
+    }
+}
+@media (max-height: 400px){
+    .landingcovertwomain {
+        height: 190vh;
+    }
+    .landingcovermain, .landingcovermainnight, .landingcovermainsunset {
+        height: 140vh;
+    }
+}
+@media (max-height: 375px){
+    .landingcovertwomain {
+        height: 200vh;
+    }
+}
+@media (max-height: 350px){
+    .landingcovertwomain {
+        height: 210vh;
+    }
+}
+@media (max-height: 325px){
+    .landingcovertwomain {
+        height: 220vh;
+    }
+    .landingcovermain, .landingcovermainnight, .landingcovermainsunset {
+        height: 150vh;
+    }
+}
+@media (max-height: 300px){
+    .landingcovertwomain {
+        height: 230vh;
+    }
+}
