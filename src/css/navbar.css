@@ -68,5 +68,12 @@
 .completenavbar {
     position: sticky;
 }
-
+@media (max-height: 500px){
+    .navbarmainh {
+        padding: 10px 0;
+    }
+    .rowleylogo {
+        max-height: 85px;
+    }
+} 
 
