@@ -87,7 +87,7 @@
         top: 40px;
     }
     .established {
-        color: rgb(0, 0, 0);
+        color: rgb(51, 51, 51);
         text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255);
         padding-left: 0px;
         font-size: 13px;
@@ -112,27 +112,4 @@
         top: 30px;
     }
 }
-@media (max-height: 625px){
-    .rpititle {
-        font-size: 100px;
-    }
-    .plumbinginc {
-        font-size: 20px;
-    }
-    .primarytitle {
-        position: absolute;
-        left: 15px;
-        top: -25px;
-    }
-    .secondarytitle {
-        position: absolute;
-        left: 260px;
-        top: -40px;
-        flex-direction: row;
-    }
-    .established {
-        padding-right: 0px;
-        padding-top: 75px;
-        padding-left: 10px;
-    }
-}
+

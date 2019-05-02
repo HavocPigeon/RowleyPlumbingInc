@@ -51,8 +51,10 @@ class App extends Component {
     const projectsLoc = document.getElementById("projectsmain").offsetTop - 76;
     const projectsLocDoc = projectsLoc + landingHeight;
     //if user scrolled to bottom
-    const totalViewport = (document.body.clientHeight - window.innerHeight) - 1; 
+    const totalViewport = (document.body.clientHeight - window.innerHeight) - 5; 
     const roundedScrollY = Math.floor(window.scrollY) ;
+  
+
     if (roundedScrollY >= stickyLoc){
       this.setState({
         bottomNavSticky: true,
@@ -70,11 +72,11 @@ class App extends Component {
       this.setState({
         activeSection: 1,
       })
-    } else if (roundedScrollY > aboutLocDoc && roundedScrollY >= projectsLocDoc && totalViewport !== roundedScrollY){
+    } else if (roundedScrollY > aboutLocDoc && roundedScrollY >= projectsLocDoc && totalViewport > roundedScrollY){
       this.setState({
         activeSection: 2,
       }) 
-    } else if (totalViewport === roundedScrollY){
+    } else if (totalViewport <= roundedScrollY){
       this.setState({
         activeSection: 3,
       })
