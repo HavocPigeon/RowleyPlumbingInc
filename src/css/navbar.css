@@ -15,7 +15,6 @@
     justify-content: space-around;
     align-items: center;
     font-size: 30px;
-    font-family: 'Permanent Marker';    
     border-bottom: solid 5px;
     border-bottom-color: rgb(31, 31, 31);
     z-index: 100;
@@ -37,7 +36,6 @@
     justify-content: space-around;
     align-items: center;
     font-size: 30px;
-    font-family: 'Permanent Marker';
     border-bottom: solid 0px;
     border-bottom-color: rgb(31, 31, 31);
     z-index: 100;

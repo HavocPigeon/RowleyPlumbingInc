@@ -101,10 +101,10 @@ export default class About extends Component {
             <div id="aboutmain">
                 <div id='about'></div>
                 <div className="abouttitle">
-                    About
+                    ABOUT
                 </div>
                 <div className="abouttitledescr">
-                    A Little Bit About Us
+                    A LITTLE BIT ABOUT US
                 </div>
                 <div className="timelinecontainer">
                     <div className="timelineleft">

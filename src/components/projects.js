@@ -9,73 +9,73 @@ export default class Projects extends Component {
     render() {
         const projects = [
             {
-                name: 'Emerson Mill Avenue',
+                name: 'EMERSON MILL AVENUE',
                 address: '101 W 5th St Tempe, Az 85281',
                 site: 'https://www.mark-taylor.com/apartments/az/tempe/emerson-mill-avenue/',
                 image: 1,
             },
             {
-                name: 'Phoenix Airport Mariott',
+                name: 'PHOENIX AIRPORT MARRIOTT',
                 address: '1101 North 44th Street, Phoenix, Az 85008',
                 site: 'https://www.marriott.com/hotels/travel/phxap-phoenix-airport-marriott/',
                 image: 2,
             },
             {
-                name: 'Esplanade Place',
+                name: 'ESPLANADE PLACE',
                 address: '2402 E. Esplanade Ln, Phoenix, Az 85016',
                 site: 'https://eastvalleyurban.com/phoenix/esplanade-place/',
                 image: 3,
             },
             {
-                name: '2211 Camelback',
+                name: '2211 CAMELBACK',
                 address: '2211 E Camelback Rd, Phoenix, AZ 85016',
                 site: 'https://www.highrises.com/phoenix/residences-at-2211-camelback/',
                 image: 4,
             },
             {
-                name: 'Bridgeview At Hayden Ferry',
+                name: 'BRIDGEVIEW AT HAYDEN FERRY',
                 address: '140 E. Rio Salado Pkwy, Tempe, Az 85281',
                 site: 'https://eastvalleyurban.com/tempe/bridgeview/',
                 image: 5,
             },
             {
-                name: 'Hohokam Stadium',
+                name: 'HOHOKAM STADIUM',
                 address: '1235 N. Center Street Mesa, Az 85201',
                 site: 'https://www.mlb.com/athletics/spring-training/ballpark',
                 image: 6,
             },
             {
-                name: 'Residence Inn Flagstaff',
+                name: 'RESIDENCE INN FLAGSTAFF',
                 address: '100 North Humphreys Street Flagstaff, Az 86001',
                 site: 'https://www.marriott.com/hotels/travel/flgrf-residence-inn-flagstaff/',
                 image: 7,
             },
             {
-                name: 'Courtyard Sedona',
+                name: 'COURTYARD SEDONA',
                 address: '4105 West State Route 89A Sedona, Az 86336',
                 site: 'https://www.marriott.com/hotels/travel/flgcs-courtyard-sedona/',
                 image: 8,
             },
             {
-                name: 'Staybridge Suites GIlbert',
+                name: 'STAYBRIDGE SUITS GILBERT',
                 address: '5275 E. Baseline Road Gilbert, Az 85234',
                 site: 'https://www.ihg.com/staybridge/hotels/us/en/gilbert/phxgl/hoteldetail',
                 image: 9,
             },
             {
-                name: 'Hyatt Place',
+                name: 'HYATT PLACE RIVERVIEW',
                 address: '1422 West Bass Pro Drive Mesa, Az 85201',
                 site: 'https://www.hyatt.com/en-US/hotel/arizona/hyatt-place-phoenix-mesa/phxzm',
                 image: 10,
             },
             {
-                name: 'Fairfield Inn & Suites',
+                name: 'FAIRFIELD INN AND SUITES',
                 address: '2222 South Priest Drive Tempe, Az 85282',
                 site: 'https://www.marriott.com/hotels/maps/travel/phxmp-fairfield-inn-and-suites-phoenix-tempe-airport/',
                 image: 11,
             },
             {
-                name: 'Home2 Suites By Hilton',
+                name: 'HOME2 SUITES BY HILTON',
                 address: '6620 N. 95th Avenue Glendale, Az 85305',
                 site: 'https://home2suites3.hilton.com/en/hotels/arizona/home2-suites-by-hilton-phoenix-glendale-westgate-PHXGWHT/index.html',
                 image: 12,
@@ -86,10 +86,10 @@ export default class Projects extends Component {
             <div id="projectsmain">
             <div id="projects"></div>
             <div className="projecttitle">
-                Past Projects
+                PAST PROJECTS
             </div>
             <div className="projecttitledescr">
-                Some Of Our Past Projects
+                SOME OF OUR PAST WORK
             </div>
             <div className="projectscontainer">
                 <div className="projectboxblockone">

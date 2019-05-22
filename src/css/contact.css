@@ -44,8 +44,9 @@ p {
     padding-top: 15px;
 }
 .contacttitle {
-    font-family: 'Permanent Marker';
-    font-weight: 100;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    letter-spacing: 2px;
 }
 .contactinfoc, .contactinfow, .topsection{
     display: flex;

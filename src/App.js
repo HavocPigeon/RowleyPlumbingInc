@@ -53,9 +53,7 @@ class App extends Component {
     //if user scrolled to bottom
     const totalViewport = (document.body.clientHeight - window.innerHeight) - 250; 
     const roundedScrollY = Math.floor(window.scrollY) ;
-    console.log(roundedScrollY);
-    console.log(totalViewport);
-    console.log(this.state.activeSection);
+
   
 
     if (roundedScrollY >= stickyLoc){

@@ -11,7 +11,7 @@ const Contact = () => {
                     <img className='rowleyouthouse' src={rowleyOuthouse} alt="outhouse-logo"/>
                 </div>
                 <div className="contacttitle">
-                    Contact Us
+                    CONTACT US
                 </div>
                 <div className="contactinfo">
                     <p>
