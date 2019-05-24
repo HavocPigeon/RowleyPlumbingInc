@@ -26,6 +26,8 @@
     font-family: 'Montserrat';
     font-weight: 700;
     font-style: italic;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .projectaddress {
     padding-bottom: 25px;

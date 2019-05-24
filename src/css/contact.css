@@ -102,7 +102,9 @@ p {
 }
 @media (max-width: 410px) {
     .contacttitle {
-        font-size: 45px;
+        font-size: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .contactnames {
         font-size: 25px;
