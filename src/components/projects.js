@@ -9,21 +9,21 @@ export default class Projects extends Component {
     render() {
         const projects = [
             {
-                name: 'EMERSON MILL AVENUE',
-                address: '101 W 5th St Tempe, Az 85281',
-                site: 'https://www.mark-taylor.com/apartments/az/tempe/emerson-mill-avenue/',
+                name: 'HOME2 SUITES BY HILTON',
+                address: '6620 N. 95th Avenue Glendale, Az 85305',
+                site: 'https://home2suites3.hilton.com/en/hotels/arizona/home2-suites-by-hilton-phoenix-glendale-westgate-PHXGWHT/index.html',
                 image: 1,
-            },
-            {
-                name: 'PHOENIX AIRPORT MARRIOTT',
-                address: '1101 North 44th Street, Phoenix, Az 85008',
-                site: 'https://www.marriott.com/hotels/travel/phxap-phoenix-airport-marriott/',
-                image: 2,
             },
             {
                 name: 'ESPLANADE PLACE',
                 address: '2402 E. Esplanade Ln, Phoenix, Az 85016',
                 site: 'https://eastvalleyurban.com/phoenix/esplanade-place/',
+                image: 2,
+            },
+            {
+                name: 'PHOENIX AIRPORT MARRIOTT',
+                address: '1101 North 44th Street, Phoenix, Az 85008',
+                site: 'https://www.marriott.com/hotels/travel/phxap-phoenix-airport-marriott/',
                 image: 3,
             },
             {
@@ -75,9 +75,9 @@ export default class Projects extends Component {
                 image: 11,
             },
             {
-                name: 'HOME2 SUITES BY HILTON',
-                address: '6620 N. 95th Avenue Glendale, Az 85305',
-                site: 'https://home2suites3.hilton.com/en/hotels/arizona/home2-suites-by-hilton-phoenix-glendale-westgate-PHXGWHT/index.html',
+                name: 'EMERSON MILL AVENUE',
+                address: '101 W 5th St Tempe, Az 85281',
+                site: 'https://www.mark-taylor.com/apartments/az/tempe/emerson-mill-avenue/',
                 image: 12,
             },
         ]

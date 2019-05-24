@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import '../../css/sub-components/projectbox.css';
-import imageTwo from '../../Images/Project Images/Phoenix Airport Mariott.jpg';
+import imageTwo from '../../Images/Project Images/Esplanade Place.jpg';
 import imageFour from '../../Images/Project Images/2211 Camelback.jpg';
 import imageSix from '../../Images/Project Images/Hohokam Stadium.jpg';
 import imageEight from '../../Images/Project Images/Courtyard Sedona.jpg';
 import imageTen from '../../Images/Project Images/Hyatt Place Riverview.jpg';
-import imageTwelve from '../../Images/Project Images/Home2 Suites.jpg';
+import imageTwelve from '../../Images/Project Images/Emerson Mill Avenue.jpg';
 
 export default class Projectboxreverse extends Component {
     render() {

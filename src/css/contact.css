@@ -95,6 +95,11 @@ p {
         height: 350px;
     }
 }
+@media (max-width: 450px){
+    .contacttitle {
+        font-size: 40px;
+    }
+}
 @media (max-width: 410px) {
     .contacttitle {
         font-size: 45px;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../css/sub-components/projectbox.css';
-import imageOne from '../../Images/Project Images/Emerson Mill Avenue.jpg';
-import imageThree from '../../Images/Project Images/Esplanade Place.jpg';
+import imageOne from '../../Images/Project Images/Home2 Suites.jpg';
+import imageThree from '../../Images/Project Images/Phoenix Airport Mariott.jpg';
 import imageFive from '../../Images/Project Images/Bridgeview.jpg';
 import imageSeven from '../../Images/Project Images/Residence Inn Flagstaff.jpg';
 import imageNine from '../../Images/Project Images/Staybridge Suites Gilbert.jpg';
