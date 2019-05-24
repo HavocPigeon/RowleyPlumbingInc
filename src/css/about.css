@@ -1,7 +1,7 @@
 #aboutmain {
     height: 120vh;
     background-image: linear-gradient(to top left,  rgb(207, 3, 3) 5%, rgb(66, 20, 20));
-    color: white;
+    color: rgb(236, 191, 191);
     background-color: transparent;
     position: absolute;
     top: 0;

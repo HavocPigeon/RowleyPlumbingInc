@@ -12,11 +12,8 @@
 .projectboxreversemain {
     height: 460px;
 }
-.projectboxmain {
-    background-color: white;
-}
-.projectboxreversemain {
-    background-color: white;
+.projectboxmain, .projectboxreversemain {
+    background-color: rgb(216, 216, 216);
 }
 .projectname {
     font-size: 28px;
