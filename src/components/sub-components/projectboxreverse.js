@@ -6,6 +6,7 @@ import imageSix from '../../Images/Project Images/Hohokam Stadium.jpg';
 import imageEight from '../../Images/Project Images/Courtyard Sedona.jpg';
 import imageTen from '../../Images/Project Images/Hyatt Place Riverview.jpg';
 import imageTwelve from '../../Images/Project Images/Emerson Mill Avenue.jpg';
+import imageFourteen from '../../Images/Project Images/RI Avondale.jpg';
 
 export default class Projectboxreverse extends Component {
     render() {
@@ -25,7 +26,9 @@ export default class Projectboxreverse extends Component {
                         : this.props.projectImage === 10
                         ? imageTen
                         : this.props.projectImage === 12
-                        ? imageTwelve : imageTwo
+                        ? imageTwelve
+                        : this.props.projectImage === 14
+                        ? imageFourteen : imageTwo
                     } alt="projectthumbnail"/>
                     </a>
                 <div className="projectname">

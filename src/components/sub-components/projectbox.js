@@ -6,6 +6,7 @@ import imageFive from '../../Images/Project Images/Bridgeview.jpg';
 import imageSeven from '../../Images/Project Images/Residence Inn Flagstaff.jpg';
 import imageNine from '../../Images/Project Images/Staybridge Suites Gilbert.jpg';
 import imageEleven from '../../Images/Project Images/Fairfield Inn and Suits.jpg';
+import imageThirteen from '../../Images/Project Images/HIE North Phoenix.jpg';
 
 
 export default class Projectbox extends Component {
@@ -32,7 +33,9 @@ export default class Projectbox extends Component {
                         : this.props.projectImage === 9
                         ? imageNine
                         : this.props.projectImage === 11
-                        ? imageEleven : imageOne
+                        ? imageEleven
+                        : this.props.projectImage === 13
+                        ? imageThirteen : imageOne
                     } alt="projectthumbnail"/>
                     </a>
                 </div>

@@ -25,22 +25,22 @@
     color: rgb(65, 65, 65);
     letter-spacing: 1px;
 }
-.projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
+.projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix, .projectboxblockseven {
     display: flex;
     justify-content: space-around;
     padding: 0 50px;
 }
-.projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
+.projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix, .projectboxblockseven {
     padding-top: 100px;
 }
 .projectboxblockone {
     padding-top: 200px;
 }
-.projectboxblocksix {
+.projectboxblockseven {
     padding-bottom: 300px;
 }
 @media (max-width: 1075px){
-    .projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
+    .projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix, .projectboxblockseven {
         flex-direction: column;
     }
     .projectscontainer{
@@ -51,7 +51,7 @@
     }
 }
 @media (max-width: 1000px){
-    .projectboxblocksix {
+    .projectboxblockseven {
         padding-bottom: 150px;
     }
 }
@@ -61,7 +61,7 @@
     }
 }
 @media (max-width: 580px){
-    .projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix {
+    .projectboxblockone, .projectboxblocktwo, .projectboxblockthree, .projectboxblockfour, .projectboxblockfive, .projectboxblocksix, .projectboxblockseven {
         padding-left: 0px;
         padding-right: 0px;
     }

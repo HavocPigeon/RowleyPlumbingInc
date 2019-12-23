@@ -80,6 +80,18 @@ export default class Projects extends Component {
                 site: 'https://www.mark-taylor.com/apartments/az/tempe/emerson-mill-avenue/',
                 image: 12,
             },
+            {
+                name: 'HOLIDAY INN NORTH PHOENIX',
+                address: '24665 N. 23rd Ave',
+                site: 'https://www.ihg.com/holidayinnexpress/hotels/us/en/phoenix/phxww/hoteldetail#_gl=1*1g47640*_gcl_aw*R0NMLjE1NzcxMzc1NTA4MDEuQ2owS0NRaUE2SUh3QlJDSkFSSXNBTE5qVmlYUVdMTEk0aVZDVUltX0hLR0RtQ0pQdVpBRi0yblRydzBVaXE4QTBhWUJiSXhTNWZFLVI2TWFBdWY0RUFMd193Y0I.',
+                image: 13,
+            },
+            {
+                name: 'RESIDENCE INN AVONDALE',
+                address: '11465 W. Hilton Way',
+                site: 'https://www.marriott.com/hotels/fact-sheet/travel/phxrv-residence-inn-phoenix-west-avondale/',
+                image: 14,
+            },
         ]
 
         return (
@@ -120,6 +132,12 @@ export default class Projects extends Component {
                     projectAddress={projects[10].address} projectSite={projects[10].site} projectImage={projects[10].image} />
                     <Projectboxreverse projectName={projects[11].name} 
                     projectAddress={projects[11].address} projectSite={projects[11].site} projectImage={projects[11].image} />
+                </div>
+                <div className="projectboxblockseven">
+                    <Projectbox projectName={projects[12].name} 
+                    projectAddress={projects[12].address} projectSite={projects[12].site} projectImage={projects[12].image} />
+                    <Projectboxreverse projectName={projects[13].name} 
+                    projectAddress={projects[13].address} projectSite={projects[13].site} projectImage={projects[13].image} />
                 </div>
             </div>
         </div>
