@@ -13,7 +13,7 @@
     height: 460px;
 }
 .projectboxmain, .projectboxreversemain {
-    background-color: rgb(216, 216, 216);
+    background-color: transparent;
 }
 .projectname {
     font-size: 28px;

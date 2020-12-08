@@ -1,16 +1,16 @@
 #contactmain {
     height: 355px;
-    color: black;
+    color: rgb(75, 75, 75);
     width: 100%;
-    background-image: linear-gradient(to top,  rgb(255, 255, 255), rgb(184, 184, 184));
+    background-image: linear-gradient(to top,  rgb(238, 255, 0), rgb(245, 255, 112));
     position: relative;
 }
 .contactbox {
     height: 250px;
     width: calc(100% - 100px);
-    border: solid 5px rgb(36, 36, 36);
-    background-image: linear-gradient(to top right rgb(70, 70, 70), rgb(145, 145, 145));
-    color: rgb(48, 48, 48);
+    border: solid 5px rgb(75, 75, 75);
+    background-image: linear-gradient(to top right rgb(238, 255, 0), rgb(238, 255, 0));
+    color: rgb(75, 75, 75);
     font-style: italic;
     font-family: 'Roboto';
     font-size: 50px;
