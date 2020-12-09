@@ -122,7 +122,7 @@ export default class About extends Component {
                                 this.state.circleFive === 'active' 
                                 ? 'abouttextshown'
                                 : 'abouttexthidden'
-                            }>As of today, Rowley Plumbing has completed over 250 major projects. The most recent of which is the Staybridge Suites in Gilbert, Arizona. 
+                            }>As of today, Rowley Plumbing has completed over 250 major projects. The most recent of which is the Hampton Inn in Queen Creek. 
                             </p>
                         </div>
                     <div className="timelinecircles">

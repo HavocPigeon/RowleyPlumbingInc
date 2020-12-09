@@ -1,7 +1,7 @@
 #projectsmain {
     padding-top: 100px;
     min-height: calc(100vh - 75px);
-    background-image: linear-gradient(to top left, rgb(255, 255, 255) 10%, rgb(228, 228, 228));
+    background-image: linear-gradient(to top left, rgb(255, 255, 255) 40%, rgb(138, 136, 136));
     background-color: transparent;
     z-index: 1;
     position: relative;

@@ -2,7 +2,7 @@
     height: 355px;
     color: rgb(75, 75, 75);
     width: 100%;
-    background-image: linear-gradient(to top,  rgb(238, 255, 0), rgb(245, 255, 112));
+    background-image: linear-gradient(to top left,  rgb(238, 255, 0), rgb(245, 255, 112));
     position: relative;
 }
 .contactbox {

@@ -93,7 +93,7 @@
     transition-property: width, height, background-color;
 }
 #circle:hover {
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(138, 136, 136);
     width: 18px;
     height: 18px;
     transition: all 0.5s ease-in-out;
@@ -104,7 +104,7 @@
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
-        background-color: rgb(112, 112, 112);
+        background-color: rgb(138, 136, 136);
         animation-name: circle;
         animation-duration: 1s;
         border: 3.5px solid rgb(37, 37, 37);
@@ -129,10 +129,10 @@
     opacity: 0;
 }
 .extrabottom {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .extratop {
-    padding-top: 15px;
+    padding-top: 50px;
 }
 @keyframes circle {
     0% {
@@ -167,10 +167,6 @@
     .abouttexthidden, .abouttextshown {
         font-size: 20px;
     }
-    .extrabottom {
-        padding-bottom: 25px;
-        padding-top: 30px;
-    }
     .aboutmain {
         height: 120vh;
     }
@@ -178,12 +174,6 @@
 @media (max-width: 560px){
     .abouttexthidden, .abouttextshown {
         font-size: 16px;
-    }
-    .extrabottom {
-        padding-bottom: 35px;
-    }
-    .extratop {
-        padding-top: 35px;
     }
 }
 @media (max-width: 450px){
