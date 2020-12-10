@@ -73,6 +73,11 @@ img {
     .projectboxmain:hover, .projectboxreversemain:hover {
         transform: translateY(-10px);
         transition: 0.7s;
+    }
+    .projectboxmain:hover {
         box-shadow: 0px 14px 10px 10px rgb(161, 161, 161);
+    }
+    .projectboxreversemain:hover {
+        box-shadow: 0px 8px 12px 10px rgb(161, 161, 161);
     }
 }
