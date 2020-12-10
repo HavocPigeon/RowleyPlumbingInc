@@ -18,6 +18,9 @@
     border-radius: 8px;
     margin: auto;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     top: 0;
     bottom: 0;
     left: 0;
@@ -50,18 +53,6 @@ p {
 }
 .contactinfoc, .contactinfow, .topsection{
     display: flex;
-}
-.rowleyouthouse {
-    height: 65px;
-    justify-content: flex-start;
-    width: auto;
-}
-.outhouse {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 25px;
-    padding-top: 10px;
 }
 .createdby {
     position: absolute;

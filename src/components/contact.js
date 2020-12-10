@@ -1,15 +1,11 @@
 import React from 'react';
 import '../css/contact.css';
-import rowleyOuthouse from '../Images/Rowley outhouse.png';
 
 const Contact = () => {
     return (
         <div id="contactmain">
             <div id="contact"></div>
             <div className="contactbox">
-                <div className="outhouse">
-                    <img className='rowleyouthouse' src={rowleyOuthouse} alt="outhouse-logo"/>
-                </div>
                 <div className="contacttitle">
                     CONTACT US
                 </div>
