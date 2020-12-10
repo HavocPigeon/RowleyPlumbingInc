@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import '../../css/sub-components/projectbox.css';
 import imageTwo from '../../Images/Project Images/Esplanade Place.jpg';
-import imageFour from '../../Images/Project Images/2211 Camelback.jpg';
-import imageSix from '../../Images/Project Images/Hohokam Stadium.jpg';
-import imageEight from '../../Images/Project Images/Courtyard Sedona.jpg';
-import imageTen from '../../Images/Project Images/Hyatt Place Riverview.jpg';
-import imageTwelve from '../../Images/Project Images/Emerson Mill Avenue.jpg';
-import imageFourteen from '../../Images/Project Images/RI Avondale.jpg';
-import imageSixteen from '../../Images/Project Images/Residence Inn La Quinta.jpg';
+import imageFour from '../../Images/Project Images/Phoenix Airport Mariott.jpg';
+import imageSix from '../../Images/Project Images/Bridgeview.jpg';
+import imageEight from '../../Images/Project Images/RI Avondale.jpg';
+import imageTen from '../../Images/Project Images/Staybridge Suites Gilbert.jpg';
+import imageTwelve from '../../Images/Project Images/Fairfield Inn and Suits.jpg';
+import imageFourteen from '../../Images/Project Images/Residence Inn Flagstaff.jpg';
+import imageSixteen from '../../Images/Project Images/Hampton Inn Queen Creek.jpg';
 
 export default class Projectboxreverse extends Component {
     render() {
